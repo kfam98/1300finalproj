@@ -8,7 +8,7 @@
 </head>
 
   <body>
-
+    
     <!-- Sidebar Implemented Starts Here -->
     <div class="sidebar">
       <?php include "includes/sidebar.php"; ?>

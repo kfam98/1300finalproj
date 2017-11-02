@@ -1,0 +1,126 @@
+
+/**************************************************************/
+/************************CSS STYLING***************************/
+/************************do NOT edit***************************/
+/**************************************************************/
+
+body {
+  background-color: #FFF;
+  font-family: Helvetica, Helvetica , Arial ,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+/**************************************************************/
+/*********************SIDEBAR STYLING**************************/
+/**************************************************************/
+
+.sidebar {
+  float: left;
+  width: 28%;
+	height: 100%;
+	background-color: #ffffff;
+  box-sizing: inherit;
+  position: fixed;
+}
+
+.title {
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 15%;
+  font-size: 25px;
+}
+
+/*Navigation Styling*/
+.navigation {
+  width: 100%;
+	height: 30%;
+  padding-left: 15%;
+}
+
+.sidebar .nav ul{
+  list-style-type: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+  opacity: .8;
+}
+
+.sidebar .nav li {
+  float: left;
+  display:inline;
+  width: 63%;
+  padding: 2.5%;
+  border-bottom: solid .5px #979797;
+}
+
+.sidebar .nav a {
+  display:inline-block;
+  text-decoration: none;
+  color: #d6d6d6;
+  text-align: left;
+  font-size: 20px;
+}
+
+li.active {
+  background-color: #111;
+}
+
+.sidebar .nav a:hover {
+  color: #A9A9A9;
+}
+
+/*Social Media Styling*/
+.socialmedia {
+  padding-left: 15%;
+  padding-top: 45%;
+  width: 100%;
+}
+
+.mediaicon {
+  width: 7%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.socialmedia a:hover {
+  opacity: .5;
+}
+
+#contact {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  color: #111;
+}
+
+#contact:hover {
+  color: #d3d3d3;
+}
+
+
+
+/**************************************************************/
+/*******************MAIN CONTENT STYLING***********************/
+/**************************************************************/
+
+.main {
+  float: left;
+  width: 72%;
+	height: 1024px;
+	background-color: #d8d8d8;
+	border: solid 1px #979797;
+  box-sizing: inherit;
+  margin-left: 28%;
+}
