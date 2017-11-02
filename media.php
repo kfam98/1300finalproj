@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shadows Dance Troupe</title>
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="styles/media.css" media="all"/>
 </head>
 
   <body>
-    
+
     <!-- Sidebar Implemented Starts Here -->
     <div class="sidebar">
       <?php include "includes/sidebar.php"; ?>
