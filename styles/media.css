@@ -55,7 +55,7 @@
 }
 
 /*more adjustments for mobile view*/
-@media only screen and (orientation: landscape) and (max-width : 670px) {
+@media only screen and (orientation: landscape) and (min-width : 670px) {
 
   .main {
     width: 65%;

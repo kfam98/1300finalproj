@@ -32,7 +32,7 @@ body {
 	height: 100%;
 	background-color: #ffffff;
   box-sizing: inherit;
-  position: relative;
+  position: fixed;
   overflow: hidden;
   float: left;
 }
