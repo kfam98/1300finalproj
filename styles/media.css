@@ -11,6 +11,9 @@
 
 .menu {
   visibility: hidden;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .main {

@@ -21,8 +21,10 @@
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
-      <?php include "includes/menubar.php"; ?>
+
       <div class="container">
+
+        <?php include "includes/menubar.php"; ?>
 
         <!-- row 1 -->
         <div class="row">
@@ -98,6 +100,8 @@
       </div>
 
     </div>
+
+
   </div>
 
 
