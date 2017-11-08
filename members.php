@@ -15,19 +15,16 @@
   <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
-    <div id="sidebar" class="sidebar">
-      <?php include "includes/sidebar.php"; ?>
-    </div>
+    <?php include "includes/sidebar.php"; ?>
 
 
-    <!-- Menu Icon for Mobile -->
 
 
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
-      <div class="menu">
-        <img id="menu_pic" src="images/icons/menu.png"/>
-      </div>
+      <!-- this is the menu pic used for mobile view, pls leave alone  -->
+      <?php include "includes/menubar.php"; ?>
+      
     </div>
 
   </div>

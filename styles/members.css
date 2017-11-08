@@ -55,14 +55,16 @@
 }
 
 /*more adjustments for mobile view*/
-@media only screen and (orientation: landscape) and (min-width : 670px) {
-
-  .main {
-    width: 65%;
+@media only screen and (orientation: landscape) and (max-width : 670px) {
+  .menu {
+    margin-top: 5%;
+    margin-left: 85%;
   }
 }
 
-@media only screen and (orientation: landscape) and (min-width : 720px) {
+
+
+@media only screen and (orientation: landscape) and (min-width : 670px) {
 
   .menu {
     margin-top: 5%;
@@ -73,6 +75,7 @@
     width: 65%;
   }
 }
+
 
 @media only screen and (orientation: portrait) and (min-width : 750px) {
 
