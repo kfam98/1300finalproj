@@ -24,6 +24,31 @@
   position: relative;
 }
 
+.container {
+  width: 100%;
+  height: inherit;
+}
+
+/*grid layout: 3 columns, 7 rows for a total of 21 members*/
+
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+    background-image: url("images/members/cat1.jpg");
+    height: 250px;
+    width: 32%
+    background-color: white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
 
 
 /**************************************************************/
@@ -49,6 +74,10 @@
       width: 100%;
       margin-left: 0;
       position: relative;
+    }
+
+    [class*="col-"] {
+        width: 100%;
     }
 
 
