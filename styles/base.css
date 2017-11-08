@@ -23,7 +23,7 @@ body {
 
 .sidebar {
   float: left;
-  width: 28%;
+  width: 250px;
 	height: 100%;
 	background-color: #ffffff;
   box-sizing: inherit;
@@ -32,16 +32,17 @@ body {
 
 .title {
   text-align: left;
-  padding-top: 10%;
-  padding-left: 15%;
-  font-size: 25px;
+  padding-top: 50%;
+  padding-left: 22%;
+  font-size: 15px;
 }
 
 /*Navigation Styling*/
 .navigation {
   width: 100%;
-	height: 30%;
-  padding-left: 15%;
+	height: 23%;
+  padding-left: 22%;
+
 }
 
 .sidebar .nav ul{
@@ -58,7 +59,7 @@ body {
 .sidebar .nav li {
   float: left;
   display:inline;
-  width: 63%;
+  width: 50%;
   padding: 2.5%;
   border-bottom: solid .5px #979797;
 }
@@ -68,7 +69,7 @@ body {
   text-decoration: none;
   color: #d6d6d6;
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 li.active {
@@ -81,30 +82,21 @@ li.active {
 
 /*Social Media Styling*/
 .socialmedia {
-  padding-left: 15%;
-  padding-top: 45%;
+
   width: 100%;
+  margin-left: 18%;
+  padding-top: 80%;
+
 }
 
 .mediaicon {
   width: 7%;
   padding-top: 2%;
-  padding-left: 2%;
+  padding-left: 5%;
   padding-right: 2%;
+
 }
 
 .socialmedia a:hover {
   opacity: .5;
-}
-
-#contact {
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  color: #111;
-}
-
-#contact:hover {
-  color: #d3d3d3;
 }

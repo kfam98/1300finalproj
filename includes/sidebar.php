@@ -23,8 +23,8 @@
 
 <!-- Social Media Icons -->
 <div class="socialmedia">
-  <a href=""><img class="mediaicon" alt="facebook" src="images/facebook.png"/></a>
-  <a href=""><img class="mediaicon" alt="twitter" src="images/twitter.png"/></a>
-  <a href=""><img class="mediaicon" alt="youtube" src="images/youtube.png"/></a>
-  <a href="" id="contact">Contact</a>
+  <a href=""><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
+  <a href=""><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
+  <a href=""><img class="mediaicon" alt="twitter" src="images/icons/world.png"/></a>
+  <a href=""><img class="mediaicon" alt="mail" src="images/icons/mail.png"/></a>
 </div>

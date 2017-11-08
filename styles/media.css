@@ -11,10 +11,11 @@
 
 .main {
   float: left;
-  width: 72%;
+  width: 82%;
 	height: 1024px;
 	background-color: #d8d8d8;
 	border: solid 1px #979797;
   box-sizing: inherit;
-  margin-left: 28%;
+  margin-left: 250px;
+  overflow: hidden;
 }

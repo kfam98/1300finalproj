@@ -8,16 +8,16 @@
   <link rel="stylesheet" type="text/css" href="styles/index.css" media="all"/>
 </head>
 
-  <body>
+<body>
 
-    <!-- Sidebar Implemented Starts Here -->
-    <div class="sidebar">
-      <?php include "includes/sidebar.php"; ?>
-    </div>
-    <!-- Sidebar Implementation Ends Here -->
+  <!-- Sidebar Implemented Starts Here -->
+  <div class="sidebar">
+    <?php include "includes/sidebar.php"; ?>
+  </div>
+  <!-- Sidebar Implementation Ends Here -->
 
-    <!-- Main Content Implementation Starts Here -->
-    <div class="main">
-    </div>
-  </body>
+  <!-- Main Content Implementation Starts Here -->
+  <div class="main">
+  </div>
+</body>
 </html>
