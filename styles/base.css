@@ -21,14 +21,22 @@ body {
 /*********************SIDEBAR STYLING**************************/
 /**************************************************************/
 
+.content {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
 .sidebar {
-  float: left;
   width: 250px;
 	height: 100%;
 	background-color: #ffffff;
   box-sizing: inherit;
-  position: fixed;
+  position: relative;
+  overflow: hidden;
+  float: left;
 }
+
 
 .title {
   text-align: left;
@@ -85,7 +93,7 @@ li.active {
 
   width: 100%;
   margin-left: 18%;
-  padding-top: 80%;
+  padding-top: 90%;
 
 }
 
@@ -99,4 +107,85 @@ li.active {
 
 .socialmedia a:hover {
   opacity: .5;
+}
+
+/**************************************************************/
+/*********************SIDEBAR 4 MOBILE*************************/
+/**************************************************************/
+
+/*changes sidebar to be hidden for mobile version and has animations*/
+@media only screen and (max-width : 670px) {
+  /*navigation menu w/ help from CSStricks.com*/
+
+  .sidebar {
+    height: 100%;
+    position: fixed;
+    width: 200px;
+    z-index: 1;
+    display: none;
+    -webkit-animation: slideIn  .5s forwards;
+    -moz-animation: slideIn .5s forwards;
+    animation: slideIn .5s forwards;
+  }
+
+  /*animations for sidebar to slide in when clicked*/
+  @-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+/*specific adjustments of social media idon padding and title for various mobile view*/
+@media only screen and (max-width : 480px) {
+
+  .socialmedia {
+    padding-top: 110%;
+  }
+
+}
+
+/*adjusts the social media icons for iphoneSE*/
+@media only screen and (max-width : 320px) {
+
+  .socialmedia {
+    padding-top: 70%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width : 740px) {
+
+  .title {
+    padding-top: 10%;
+  }
+  .socialmedia {
+    padding-top: 10%;
+  }
 }
