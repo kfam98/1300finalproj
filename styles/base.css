@@ -6,7 +6,8 @@
 
 body {
   background-color: #FFF;
-  font-family: Helvetica, Helvetica , Arial ,sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -35,6 +36,8 @@ body {
   position: fixed;
   overflow: hidden;
   float: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
 }
 
 
@@ -78,6 +81,7 @@ body {
   color: #d6d6d6;
   text-align: left;
   font-size: 15px;
+
 }
 
 li.active {
@@ -86,6 +90,7 @@ li.active {
 
 .sidebar .nav a:hover {
   color: #A9A9A9;
+  cursor: pointer;
 }
 
 /*Social Media Styling*/
