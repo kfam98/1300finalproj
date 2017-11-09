@@ -27,6 +27,14 @@
   position: relative;
 }
 
+video {
+  width: 100% !important;
+  height: auto !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 
 /**************************************************************/

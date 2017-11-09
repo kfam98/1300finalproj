@@ -24,6 +24,9 @@
     <div class="main">
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
+      <video preload="auto" autoplay loop muted="muted" volume="0">
+        <source src="images/showcase/shadowsvideo.mp4" type="video/mp4">
+        </video>
 
     </div>
 
