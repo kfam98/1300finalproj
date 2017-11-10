@@ -41,7 +41,7 @@ body {
 	background-color: #ffffff;
   box-sizing: inherit;
   position: fixed;
-  overflow: hidden;
+  /*overflow: hidden;*/
   float: left;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
@@ -126,6 +126,56 @@ li.active {
 /**************************************************************/
 
 /*changes sidebar to be hidden for mobile version and has animations*/
+
+@media only screen and (max-width : 1020px) {
+  .sidebar {
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    z-index: 1;
+    display: none;
+    -webkit-animation: slideIn  .5s forwards;
+    -moz-animation: slideIn .5s forwards;
+    animation: slideIn .5s forwards;
+  }
+
+  /*animations for sidebar to slide in when clicked*/
+  @-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .socialmedia {
+    padding-top: 80%;
+
+  }
+
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+  }
+}
 @media only screen and (max-width : 670px) {
   /*navigation menu w/ help from CSStricks.com*/
 
@@ -179,7 +229,7 @@ li.active {
 @media only screen and (max-width : 480px) {
 
   .socialmedia {
-    padding-top: 110%;
+    padding-top: 80%;
   }
 
 }
@@ -188,7 +238,7 @@ li.active {
 @media only screen and (max-width : 320px) {
 
   .socialmedia {
-    padding-top: 70%;
+    padding-top: 55%;
   }
 }
 

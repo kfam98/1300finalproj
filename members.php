@@ -28,7 +28,7 @@
       <div class="banner">
         <div class="banner-text">
           <h1>Members</h1>
-          <img id="scroll" alt="scroll" src="images/icons/arrow.png">
+          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 
@@ -184,7 +184,7 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <img alt="modalpic" src="images/members/katie1.jpg">
+        <img alt="modalpic" src="images/members/katie2.jpg">
           <div class="modal-content-text">
             <h1>Name</h1>
             <h2>Title</h2>

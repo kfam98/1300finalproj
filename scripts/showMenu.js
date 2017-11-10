@@ -9,6 +9,7 @@ $(document).ready(function() {
 
   $('body').click(function(e) {
   if ($('.menu').hasClass('bar')) {
+    console.log("pls work");
     $(".menu").toggleClass('bar')
   }
 
