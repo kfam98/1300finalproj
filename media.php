@@ -58,6 +58,10 @@
     <div class="main">
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
+    </div>
+
+    <div class="indexInfo">
+      <h1> About </h1>
 
     </div>
 
