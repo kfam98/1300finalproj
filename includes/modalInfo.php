@@ -10,13 +10,13 @@
 
   while(!feof($txtFile)) {
     $member = fgets($txtFile);
-    echo($member);
+    var_dump($member);
     $memberArray = explode(",", $member);
 
     array_push($membersArray, $memberArray);
   }
-
-  echo($membersArray "this is the array ");
+  echo("array bishes");
+  var_dump($membersArray);
   // if button is clicked
   // then print modal div of specific member
 

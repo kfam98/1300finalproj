@@ -96,7 +96,6 @@
 }
 
 
-
 /*text in each image grid*/
 .box-text {
   /*text-align: center;*/
@@ -110,6 +109,7 @@
   font-weight: 700;
   /*line-height: 64px;*/
   padding: 5%;
+  width: 65%;
 }
 
 .box-text p {
@@ -117,64 +117,61 @@
   padding: 2px;
 }
 
-.btn {
+.name {
   cursor: pointer;
   border: 2px solid black;
   background-color: #FFF;
   padding: 5%;
   font-weight: 700;
-  font-size: 20px;
-  min-width: 80%;
+  font-size: 18px;
+  color: #111;
   width: 100%;
 }
 
-.btn:hover {
-  opacity: .8;
-}
 
 /*photo in each member grid*/
 #box1{background-image: url('../images/members/katie_bw.jpg');}
-#box1:hover {background-image: url('../images/members/katie_c.jpg');}
+#box1:hover {background-image: url('../images/members/katie_c.jpg'); cursor: pointer;}
 #box2{background-image: url('../images/members/brendan_bw.jpg');}
-#box2:hover {background-image: url('../images/members/brendan_c.jpg');}
+#box2:hover {background-image: url('../images/members/brendan_c.jpg'); cursor: pointer;}
 #box3{background-image: url('../images/members/claudia_bw.jpg');}
-#box3:hover {background-image: url('../images/members/claudia_c.jpg');}
+#box3:hover {background-image: url('../images/members/claudia_c.jpg'); cursor: pointer;}
 #box4{background-image: url('../images/members/ari_bw.jpg');}
-#box4:hover {background-image: url('../images/members/ari_c.jpg');}
+#box4:hover {background-image: url('../images/members/ari_c.jpg'); cursor: pointer;}
 #box5{background-image: url('../images/members/cam_bw.jpg');}
-#box5:hover {background-image: url('../images/members/cam_c.jpg');}
+#box5:hover {background-image: url('../images/members/cam_c.jpg'); cursor: pointer;}
 #box6{background-image: url('../images/members/cat_bw.jpg');}
-#box6:hover {background-image: url('../images/members/cat_c.jpg');}
+#box6:hover {background-image: url('../images/members/cat_c.jpg'); cursor: pointer;}
 #box7{background-image: url('../images/members/catie_bw.jpg');}
-#box7:hover {background-image: url('../images/members/catie_c.jpg');}
+#box7:hover {background-image: url('../images/members/catie_c.jpg'); cursor: pointer;}
 #box8{background-image: url('../images/members/dana_bw.jpg');}
-#box8:hover {background-image: url('../images/members/dana_c.jpg');}
+#box8:hover {background-image: url('../images/members/dana_c.jpg'); cursor: pointer;}
 #box9{background-image: url('../images/members/erica_bw.jpg');}
-#box9:hover {background-image: url('../images/members/erica_c.jpg');}
+#box9:hover {background-image: url('../images/members/erica_c.jpg'); cursor: pointer;}
 #box10{background-image: url('../images/members/jac_bw.jpg');}
-#box10:hover {background-image: url('../images/members/jac_c.jpg');}
+#box10:hover {background-image: url('../images/members/jac_c.jpg'); cursor: pointer;}
 #box11{background-image: url('../images/members/jasmine_bw.jpg');}
-#box11:hover {background-image: url('../images/members/jasmine_c.jpg');}
+#box11:hover {background-image: url('../images/members/jasmine_c.jpg'); cursor: pointer;}
 #box12{background-image: url('../images/members/jaye_bw.jpg');}
-#box12:hover {background-image: url('../images/members/jaye_c.jpg');}
+#box12:hover {background-image: url('../images/members/jaye_c.jpg'); cursor: pointer;}
 #box13{background-image: url('../images/members/juliaa_bw.jpg');}
-#box13:hover {background-image: url('../images/members/juliaa_c.jpg');}
+#box13:hover {background-image: url('../images/members/juliaa_c.jpg'); cursor: pointer;}
 #box14{background-image: url('../images/members/juliaw_bw.jpg');}
-#box14:hover {background-image: url('../images/members/juliaw_c.jpg');}
+#box14:hover {background-image: url('../images/members/juliaw_c.jpg'); cursor: pointer;}
 #box15{background-image: url('../images/members/kiara_bw.jpg');}
-#box15:hover {background-image: url('../images/members/kiara_c.jpg');}
+#box15:hover {background-image: url('../images/members/kiara_c.jpg'); cursor: pointer;}
 #box16{background-image: url('../images/members/lucy_bw.jpg');}
-#box16:hover {background-image: url('../images/members/lucy_c.jpg');}
+#box16:hover {background-image: url('../images/members/lucy_c.jpg'); cursor: pointer;}
 #box17{background-image: url('../images/members/maya_bw.jpg');}
-#box17:hover {background-image: url('../images/members/maya_c.jpg');}
+#box17:hover {background-image: url('../images/members/maya_c.jpg'); cursor: pointer;}
 #box18{background-image: url('../images/members/niara_bw.jpg');}
-#box18:hover {background-image: url('../images/members/niara_c.jpg');}
+#box18:hover {background-image: url('../images/members/niara_c.jpg'); cursor: pointer;}
 #box19{background-image: url('../images/members/samantha_bw.jpg');}
-#box19:hover {background-image: url('../images/members/samantha_c.jpg');}
+#box19:hover {background-image: url('../images/members/samantha_c.jpg'); cursor: pointer;}
 #box20{background-image: url('../images/members/shannon_bw.jpg');}
-#box20:hover {background-image: url('../images/members/shannon_c.jpg');}
+#box20:hover {background-image: url('../images/members/shannon_c.jpg'); cursor: pointer;}
 #box21{background-image: url('../images/members/virginia_bw.jpg');}
-#box21:hover {background-image: url('../images/members/virginia_c.jpg');}
+#box21:hover {background-image: url('../images/members/virginia_c.jpg'); cursor: pointer;}
 
 /* The Modal (background) */
 .modal {
@@ -291,7 +288,7 @@
     }
 
     .modal-content {
-      margin: 10% auto
+      margin: 10% auto;
       height: 40%;
     }
 
@@ -310,8 +307,6 @@
     .modal-content {
           width: 100%;
     }
-
-
 
 
 }
