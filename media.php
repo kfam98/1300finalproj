@@ -51,12 +51,23 @@
 </div>
 <br>
 
+<<<<<<< HEAD
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
   </div>
+=======
+    <!-- Main Content Implementation Starts Here -->
+    <div class="main">
+      <!-- this is the menu pic used for mobile view, pls leave alone  -->
+      <?php include "includes/menubar.php"; ?>
+    </div>
+
+    <div class="indexInfo">
+      <h1> About </h1>
+>>>>>>> 1193123a592b62384840d4306fe421e0c8e057e8
 
   <div class="content">
 
