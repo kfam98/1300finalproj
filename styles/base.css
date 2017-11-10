@@ -4,9 +4,15 @@
 /************************do NOT edit***************************/
 /**************************************************************/
 
+
+html {
+  width: 100%;
+}
+
 body {
   background-color: #FFF;
-  font-family: Helvetica, Helvetica , Arial ,sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -14,6 +20,7 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 
 }
 
@@ -21,27 +28,38 @@ body {
 /*********************SIDEBAR STYLING**************************/
 /**************************************************************/
 
+.content {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
 .sidebar {
-  float: left;
-  width: 28%;
+  width: 250px;
 	height: 100%;
 	background-color: #ffffff;
   box-sizing: inherit;
   position: fixed;
+  overflow: hidden;
+  float: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
 }
+
 
 .title {
   text-align: left;
-  padding-top: 10%;
-  padding-left: 15%;
-  font-size: 25px;
+  padding-top: 50%;
+  padding-left: 22%;
+  font-size: 15px;
 }
 
 /*Navigation Styling*/
 .navigation {
   width: 100%;
-	height: 30%;
-  padding-left: 15%;
+	height: 23%;
+  padding-left: 22%;
+
 }
 
 .sidebar .nav ul{
@@ -58,7 +76,7 @@ body {
 .sidebar .nav li {
   float: left;
   display:inline;
-  width: 63%;
+  width: 50%;
   padding: 2.5%;
   border-bottom: solid .5px #979797;
 }
@@ -68,7 +86,8 @@ body {
   text-decoration: none;
   color: #d6d6d6;
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
+
 }
 
 li.active {
@@ -77,34 +96,107 @@ li.active {
 
 .sidebar .nav a:hover {
   color: #A9A9A9;
+  cursor: pointer;
 }
 
 /*Social Media Styling*/
 .socialmedia {
-  padding-left: 15%;
-  padding-top: 45%;
+
   width: 100%;
+  margin-left: 18%;
+  padding-top: 90%;
+
 }
 
 .mediaicon {
   width: 7%;
   padding-top: 2%;
-  padding-left: 2%;
+  padding-left: 5%;
   padding-right: 2%;
+
 }
 
 .socialmedia a:hover {
   opacity: .5;
 }
 
-#contact {
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  color: #111;
+/**************************************************************/
+/*********************SIDEBAR 4 MOBILE*************************/
+/**************************************************************/
+
+/*changes sidebar to be hidden for mobile version and has animations*/
+@media only screen and (max-width : 670px) {
+  /*navigation menu w/ help from CSStricks.com*/
+
+  .sidebar {
+    height: 100%;
+    position: fixed;
+    width: 200px;
+    z-index: 1;
+    display: none;
+    -webkit-animation: slideIn  .5s forwards;
+    -moz-animation: slideIn .5s forwards;
+    animation: slideIn .5s forwards;
+  }
+
+  /*animations for sidebar to slide in when clicked*/
+  @-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
 }
 
-#contact:hover {
-  color: #d3d3d3;
+/*specific adjustments of social media idon padding and title for various mobile view*/
+@media only screen and (max-width : 480px) {
+
+  .socialmedia {
+    padding-top: 110%;
+  }
+
+}
+
+/*adjusts the social media icons for iphoneSE*/
+@media only screen and (max-width : 320px) {
+
+  .socialmedia {
+    padding-top: 70%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width : 740px) {
+
+  .title {
+    padding-top: 10%;
+  }
+  .socialmedia {
+    padding-top: 10%;
+  }
 }

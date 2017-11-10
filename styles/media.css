@@ -10,14 +10,116 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
+.menu {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+}
+
 .main {
-  float: left;
-  width: 72%;
+  width: 80%;
 	height: 1024px;
 	background-color: #d8d8d8;
 	border: solid 1px #979797;
   box-sizing: inherit;
-  margin-left: 28%;
+  margin-left: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+/**************************************************************/
+/***********************MAIN 4 MOBILE**************************/
+/**************************************************************/
+
+/*for normal mobile screen that shows the menu icon and changes main to 100% width*/
+@media only screen and (max-width : 670px) {
+
+
+    .menu {
+      visibility: visible;
+      width: 50px;
+      height: auto;
+      position: fixed;
+      margin-top: 10%;
+      margin-left: 80%;
+      cursor: pointer;
+
+    }
+
+    .main {
+      width: 100%;
+      margin-left: 0;
+      position: relative;
+    }
+
+
+}
+
+/*more adjustments for mobile view*/
+@media only screen and (orientation: landscape) and (max-width : 670px) {
+  .menu {
+    margin-top: 5%;
+    margin-left: 85%;
+  }
+}
+
+
+
+@media only screen and (orientation: landscape) and (min-width : 670px) {
+
+  .menu {
+    margin-top: 5%;
+    margin-left: 85%;
+  }
+
+  .main {
+    width: 65%;
+  }
+}
+
+
+@media only screen and (orientation: portrait) and (min-width : 750px) {
+
+  .menu {
+    margin-top: 5%;
+    margin-left: 85%;
+  }
+
+  .main {
+    width: 67%;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width : 950px) {
+
+  .main {
+    width: 73%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width : 1000px) {
+
+  .main {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+
+  .menu {
+    visibility: hidden;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    height: 0;
+  }
+
+  .main {
+    width: 80%;
+  }
 }
 
 .central {

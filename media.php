@@ -6,6 +6,7 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/media.css" media="all"/>
+<<<<<<< HEAD
   <script src="scripts/slideshow.js"></script>
 </head>
 
@@ -38,6 +39,29 @@
     <img class="mySlides" src="img_mountains.jpg">
     <img class="mySlides" src="img_forest.jpg">-->
   </div>
+=======
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/showMenu.js"></script>
+</head>
+
+<body>
+
+  <div class="content">
+
+    <!-- Sidebar Implemented Starts Here -->
+    <?php include "includes/sidebar.php"; ?>
+
+
+
+
+    <!-- Main Content Implementation Starts Here -->
+    <div class="main">
+      <!-- this is the menu pic used for mobile view, pls leave alone  -->
+      <?php include "includes/menubar.php"; ?>
+
+    </div>
+
+>>>>>>> 8abfcb0a924c70bedcfb6eb7a16c09cefb0bc3e3
   </div>
 </body>
 </html>

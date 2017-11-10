@@ -6,19 +6,27 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/join.css" media="all"/>
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/showMenu.js"></script>
 </head>
 
-  <body>
+<body>
+
+  <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
-    <div class="sidebar">
-      <?php include "includes/sidebar.php"; ?>
-    </div>
-    <!-- Sidebar Implementation Ends Here -->
+    <?php include "includes/sidebar.php"; ?>
+
+
+
 
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
-      <p> Hello! My name is Jenny!
+      <!-- this is the menu pic used for mobile view, pls leave alone  -->
+      <?php include "includes/menubar.php"; ?>
+
     </div>
-  </body>
+
+  </div>
+</body>
 </html>
