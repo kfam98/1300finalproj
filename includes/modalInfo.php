@@ -1,24 +1,25 @@
 <?php
-$txtFile = fopen("members.txt", "r") or die("Unable to open file!");
+  $txtFile = fopen("members.txt", "r") or die("Unable to open file!");
 
-$name;
-$position;
-$class;
-$explanation;
+  $name;
+  $position;
+  $class;
+  $explanation;
 
-$membersArray = array();
+  $membersArray = array();
 
-while(!feof($txtFile)) {
-  $member = fgets($txtFile);
-  $memberArray = explode($member, ",");
-  //echo($memberArray);
-  array_push($membersArray, $memberArray);
-}
+  while(!feof($txtFile)) {
+    $member = fgets($txtFile);
+    echo($member);
+    $memberArray = explode(",", $member);
 
-echo($membersArray);
-// if button is clicked
-// then print modal div of specific member
+    array_push($membersArray, $memberArray);
+  }
 
-fclose($txtFile);
+  echo($membersArray "this is the array ");
+  // if button is clicked
+  // then print modal div of specific member
+
+  fclose($txtFile);
 
 ?>

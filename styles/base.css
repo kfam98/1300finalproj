@@ -11,8 +11,8 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  letter-spacing: 100;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -50,16 +50,20 @@ body {
 
 .title {
   text-align: left;
-  padding-top: 50%;
-  padding-left: 22%;
+  padding-top: 40%;
   font-size: 15px;
+  padding-left: 15%;
+}
+
+#logo {
+  width: 80%;
 }
 
 /*Navigation Styling*/
 .navigation {
   width: 100%;
-	height: 23%;
-  padding-left: 22%;
+	height: 20%;
+  padding-left: 16%;
 
 }
 
@@ -77,7 +81,7 @@ body {
 .sidebar .nav li {
   float: left;
   display:inline;
-  width: 50%;
+  width: 60%;
   padding: 2.5%;
   border-bottom: solid .5px #979797;
 }
@@ -85,14 +89,14 @@ body {
 .sidebar .nav a {
   display:inline-block;
   text-decoration: none;
-  color: #d6d6d6;
+  color: #111;
   text-align: left;
   font-size: 15px;
 
 }
 
 li.active {
-  background-color: #111;
+  background-color: #d3d3d3;
 }
 
 .sidebar .nav a:hover {
@@ -102,10 +106,9 @@ li.active {
 
 /*Social Media Styling*/
 .socialmedia {
-
   width: 100%;
   margin-left: 18%;
-  padding-top: 90%;
+  padding-top: 85%;
 
 }
 
