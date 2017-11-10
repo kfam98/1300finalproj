@@ -5,6 +5,7 @@
 /**************************************************************/
 
 
+
 /**************************************************************/
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
@@ -119,4 +120,62 @@
   .main {
     width: 80%;
   }
+}
+
+.central {
+  display: flex;
+  justify-content: center;
+  width: 388px;
+  height: 172px;
+  font-size: 144px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #000000;
+  margin-left: 30%;
+  margin-top: 270px;
+  margin-bottom: 270px;
+}
+
+.Rectangle-11 {
+  display: flex;
+  justify-content: center;
+  width: 961px;
+  height: 1024px;
+  background-color: #d8d8d8;
+}
+
+.SHADOWS {
+    width: 330px;
+    height: 86px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #000000;
+    margin-left: 55%;
+    margin-bottom: 200px;
+}
+
+.slides {
+    width: 50%;
+    height: 50%;
+    margin-left: 23%
+}
+
+.select {
+    display: inline;
+    width: 324px;
+    height: 56px;
+    opacity: 0.9;
+    font-size: 47.5px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #000000;
+    margin-right: 30px;
+}
+
+#select-list {
+    margin-left: 27%;
 }

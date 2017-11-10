@@ -4,6 +4,11 @@
 /************************do NOT edit***************************/
 /**************************************************************/
 
+
+html {
+  width: 100%;
+}
+
 body {
   background-color: #FFF;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -15,6 +20,7 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 
 }
 

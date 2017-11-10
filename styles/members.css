@@ -17,8 +17,8 @@
 }
 
 .main {
-  width: 80%;
-	height: 2595px;
+  width: 100%;
+	height: 100%;
 	background-color: #d8d8d8;
 	border: solid 1px #979797;
   box-sizing: inherit;
@@ -37,46 +37,43 @@
   background-image: url("../images/shadows_dance_troupe.jpg");
   background-color: #111;
   width: 100%;
-  height: 29%;
+  height: 28%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.banner-text {
+.banner-text h1{
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  font-size: 50px;
+  font-size: 110px;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   line-height: 64px;
-  margin: 0 0 0;
-  padding: 20px 30px;
+  /*padding: 20px 30px;*/
 }
 
-.banner-text a {
-  background-color: #FFF;
-  font-size: 12px;
-  padding: 15px;
-  text-decoration: none;
-  color: #111;
+.banner-text img {
+  width: 10%;
+  margin-top: 60%;
+  margin-left: 45%;
 }
 
-.banner-text a:hover {
-  opacity: .8;
+.banner-text img:hover {
+  opacity: .7;
+  cursor: pointer;
 }
 
 /*grid layout: 3 columns, 7 rows for a total of 21 members*/
 [class*="col-"] {
   float: left;
   padding: .65%;
-  background-image: url("../images/members/cat1.jpg");
   height: 250px;
   width: 32%;
   background-color: white;
@@ -88,8 +85,6 @@
 
 [class*="col-"]:hover {
   opacity: .8;
-  background-image: url("../images/members/cat1_2.jpg");
-  cursor: pointer;
 }
 
 .row::after {
@@ -99,6 +94,8 @@
 }
 
 
+
+/*text in each image grid*/
 .box-text {
   /*text-align: center;*/
   position: absolute;
@@ -115,9 +112,66 @@
 }
 
 .box-text p {
-  font-size: 10px;
-  padding: 0;
-  }
+  font-size: 12px;
+  padding: 2px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: #FFF;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+/*photo in each member grid*/
+#box1{background-image: url('../images/members/katie_bw.jpg');}
+#box1:hover {background-image: url('../images/members/katie_c.jpg');}
+#box2{background-image: url('../images/members/brendan_bw.jpg');}
+#box2:hover {background-image: url('../images/members/brendan_c.jpg');}
+#box3{background-image: url('../images/members/claudia_bw.jpg');}
+#box3:hover {background-image: url('../images/members/claudia_c.jpg');}
+#box4{background-image: url('../images/members/ari_bw.jpg');}
+#box4:hover {background-image: url('../images/members/ari_c.jpg');}
+#box5{background-image: url('../images/members/cam_bw.jpg');}
+#box5:hover {background-image: url('../images/members/cam_c.jpg');}
+#box6{background-image: url('../images/members/cat_bw.jpg');}
+#box6:hover {background-image: url('../images/members/cat_c.jpg');}
+#box7{background-image: url('../images/members/catie_bw.jpg');}
+#box7:hover {background-image: url('../images/members/catie_c.jpg');}
+#box8{background-image: url('../images/members/dana_bw.jpg');}
+#box8:hover {background-image: url('../images/members/dana_c.jpg');}
+#box9{background-image: url('../images/members/erica_bw.jpg');}
+#box9:hover {background-image: url('../images/members/erica_c.jpg');}
+#box10{background-image: url('../images/members/jac_bw.jpg');}
+#box10:hover {background-image: url('../images/members/jac_c.jpg');}
+#box11{background-image: url('../images/members/jasmine_bw.jpg');}
+#box11:hover {background-image: url('../images/members/jasmine_c.jpg');}
+#box12{background-image: url('../images/members/jaye_bw.jpg');}
+#box12:hover {background-image: url('../images/members/jaye_c.jpg');}
+#box13{background-image: url('../images/members/juliaa_bw.jpg');}
+#box13:hover {background-image: url('../images/members/juliaa_c.jpg');}
+#box14{background-image: url('../images/members/juliaw_bw.jpg');}
+#box14:hover {background-image: url('../images/members/juliaw_c.jpg');}
+#box15{background-image: url('../images/members/kiara_bw.jpg');}
+#box15:hover {background-image: url('../images/members/kiara_c.jpg');}
+#box16{background-image: url('../images/members/lucy_bw.jpg');}
+#box16:hover {background-image: url('../images/members/lucy_c.jpg');}
+#box17{background-image: url('../images/members/maya_bw.jpg');}
+#box17:hover {background-image: url('../images/members/maya_c.jpg');}
+#box18{background-image: url('../images/members/niara_bw.jpg');}
+#box18:hover {background-image: url('../images/members/niara_c.jpg');}
+#box19{background-image: url('../images/members/samantha_bw.jpg');}
+#box19:hover {background-image: url('../images/members/samantha_c.jpg');}
+#box20{background-image: url('../images/members/shannon_bw.jpg');}
+#box20:hover {background-image: url('../images/members/shannon_c.jpg');}
+#box21{background-image: url('../images/members/virginia_bw.jpg');}
+#box21:hover {background-image: url('../images/members/virginia_c.jpg');}
 
 /* The Modal (background) */
 .modal {
@@ -136,10 +190,11 @@
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 4% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 80%;
 }
 
 .modal-content {
@@ -148,6 +203,23 @@
     animation-name: zoom;
     animation-duration: 0.6s;
 }
+
+
+.modal-content-text {
+  padding-left: 58%;
+  padding-top:  20%;
+
+}
+
+.modal-content img {
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  margin-top:  12%;
+  border: 2px solid black;
+}
+
 
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)}
@@ -186,7 +258,6 @@
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 670px) {
 
-
     .menu {
       visibility: visible;
       width: 50px;
@@ -199,6 +270,10 @@
 
     }
 
+    .banner-text h1 {
+      font-size: 40px;
+    }
+
 
     .main {
       width: 100%;
@@ -209,6 +284,10 @@
     [class*="col-"] {
         width: 100%;
     }
+
+    .modal-content {
+          width: 100%;
+      }
 
 
 }
@@ -225,9 +304,8 @@
     width: 65%;
   }
 
-  .modal-content {
-        width: 100%;
-    }
+
+
 }
 
 
@@ -270,5 +348,7 @@
 
   .main {
     width: 80%;
+    max-width: 100%;
   }
+
 }

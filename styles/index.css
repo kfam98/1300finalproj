@@ -18,16 +18,25 @@
 
 .main {
   width: 80%;
-	height: 1024px;
+	height: 100%;
 	background-color: #d8d8d8;
 	border: solid 1px #979797;
-  box-sizing: inherit;
+  /*box-sizing: inherit;*/
   margin-left: 250px;
   overflow: hidden;
   position: relative;
 }
 
+video {
+  /*width: 10px;*/
+  height: 100%;
+}
 
+.indexInfo{
+  width: 85%;
+  margin-left: 255px;
+  float: left;
+}
 
 /**************************************************************/
 /***********************MAIN 4 MOBILE**************************/
