@@ -1,0 +1,24 @@
+<?php
+$txtFile = fopen("members.txt", "r") or die("Unable to open file!");
+
+$name;
+$position;
+$class;
+$explanation;
+
+$membersArray = array();
+
+while(!feof($txtFile)) {
+  $member = fgets($txtFile);
+  $memberArray = explode($member, ",");
+  //echo($memberArray);
+  array_push($membersArray, $memberArray);
+}
+
+echo($membersArray);
+// if button is clicked
+// then print modal div of specific member
+
+fclose($txtFile);
+
+?>
