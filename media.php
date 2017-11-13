@@ -30,48 +30,37 @@
     <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="images/Group1.jpg" style="width:100%">
+    <img src="images/Group1.jpg" alt="Group1" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="images/Group2.jpg" style="width:100%">
+    <img src="images/Group2.jpg" alt="Group2" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="images/Group3.jpg" style="width:100%">
+    <img src="images/Group3.jpg" alt="Group3" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
 
-<<<<<<< HEAD
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
   </div>
-=======
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
     </div>
-
-    <div class="indexInfo">
-      <h1> About </h1>
->>>>>>> 1193123a592b62384840d4306fe421e0c8e057e8
-
-  <div class="content">
-
-  </div>
   </div>
 </body>
 </html>
