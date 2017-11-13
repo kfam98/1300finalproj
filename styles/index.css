@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 #indexCover h1{
@@ -72,6 +72,7 @@
 
 #indexCover img{
   height: 100%;
+  /*margin-left: 250px;*/
 }
 
 #indexScroll img{
