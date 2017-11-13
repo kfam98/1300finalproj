@@ -18,14 +18,49 @@
 
 .main {
   width: 80%;
-	height: 1024px;
-	background-color: #d8d8d8;
+	height: 4000px;
+	background-color: white;
 	border: solid 1px #979797;
   box-sizing: inherit;
   margin-left: 250px;
   overflow: hidden;
   position: relative;
 }
+
+.banner {
+  background-image: url("../images/join/join4.jpg");
+  background-color: #111;
+  width: 100%;
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text h1{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 110px;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  /*padding: 20px 30px;*/
+}
+
+.performance img, .audition img{
+  width: 100%;
+}
+
+#audjoin{
+  text-align: right;
+}
+
 
 
 

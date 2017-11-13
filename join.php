@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="styles/join.css" media="all"/>
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
+  <script type="text/javascript" src="scripts/joinJS.js"></script>
 </head>
 
 <body>
@@ -34,16 +35,14 @@
       <!--general info-->
       <div class="shadows">
         <h1>Shadows Dance Troupe?</h1>
-          <p>Shadows Dance Troupe was founded in 1993 at Cornell University. A group of energetic and versatile dancers, Troupe members come from all different dance backgrounds. Shadows routines are innovative and represent the different strengths of group members. Whether it be jazz, tap, lyrical, modern or hip hop, every Shadow absolutely loves to practice and perform. During two shows a year, Fall Step and Spring Heat, as well as during a variety of guest performances throughout the year, Shadow's wows its audience!
-          <br/> With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovatihttps://www.youtube.com/user/cornellshadows?feature=watchon. Shadows is a tight-knit group who absolutely loves to perform.
-          <br/>Shadows is very active on Cornell's campus. If you would like Shadows to make a guest performance at your event, please contact one of our co-chairs. If you would like to schedule a mixer with Shadows, please contact one of our social chairs. </p>
-
+          <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
           <p>Check out our YouTube channel! <br/>
           <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
 
-          <h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>
+          <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
           <!--if clicked, scrolls down to audition section-->
       </div>
+      <hr/>
 
       <!--performance info-->
       <div class="performance">
@@ -69,18 +68,29 @@
       <!--audition info-->
       <div class="audition">
         <h1>Fall 2017 Audition</h1>
+          <p> Come try out for Shadows Dance Troupe at our Fall 2017 auditions!
+            We perform all styles of dance, including jazz contemporary, hip hop, tap, and more.
+            Each year, we are known for hosting Fall Step, Cornell's largest dance collective in Bailey hall!
+            Shadows dancers are active in the dance community - teaching CDA workshops, participating in multiple dance troupes, and performing across campus.
+            We would love to see what you've got - auditions for Shadows! <p>
           <figure id="auditioninfo">
             <img alt="audition" src="images/join/audition.jpg"/>
           </figure>
+        <!--add map-->
       </div>
+      <hr/>
 
       <!--workshop info-->
       <div class="workshop">
+        <h1>Orientation Workshop</h1>
+          <figure>
+            <img alt="workshop" src="images/join/workshop.jpg">
+            <img alt="workshop" src="images/join/workshop2.jpg">
+          </figure>
         <!--add past workshop pictures + videos -->
       </div>
 
-      <div class="map">
-      </div>
+
 
     </div>
 
