@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#menu_pic").click(function(e){
+  $(".menu").click(function(e){
     e.stopPropagation();
     $("#sidebar").toggle('bar');
     console.log("pl work");
@@ -9,6 +9,7 @@ $(document).ready(function() {
 
   $('body').click(function(e) {
   if ($('.menu').hasClass('bar')) {
+    console.log("pls work");
     $(".menu").toggleClass('bar')
   }
 

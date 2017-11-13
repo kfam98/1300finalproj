@@ -3,13 +3,13 @@ $(document).ready(function() {
   var modal = document.getElementById('modal-id');
 
   // Get the button that opens the modal
-  var btn1 = document.getElementById("btn1");
+  var box = document.getElementById("box1");
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
 
   // When the user clicks on the button, open the modal
-  btn1.onclick = function() {
+  box.onclick = function() {
       modal.style.display = "block";
   }
 

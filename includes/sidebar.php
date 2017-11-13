@@ -1,9 +1,7 @@
 <div id="sidebar" class="sidebar">
   <!-- Title/Logo Placement -->
   <div class='title'>
-    <h1>Shadows <br/>
-        Dance <br/>
-        Troupe</h1>
+    <img id="logo" src="images/shadowsLogo.png" alt="logo">
   </div>
 
   <!-- Vertical Navigation Bar -->
