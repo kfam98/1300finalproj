@@ -17,26 +17,83 @@
 }
 
 .main {
-  width: 80%;
+  /*sizing*/
+  min-width: 83%;
 	height: 100%;
-	background-color: #d8d8d8;
-	border: solid 1px #979797;
-  /*box-sizing: inherit;*/
+  /*positioning*/
   margin-left: 250px;
-  overflow: hidden;
+  position: relative;
+  /*aesthetics*/
+  background-color: white;
+}
+
+#indexCover{
+  background-image: url("images/index/cover.gif");
+  background-color: black;
+  height: 793px;
   position: relative;
 }
 
-video {
-  /*width: 10px;*/
+#indexCover h1{
+  /*positioning*/
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*font attributes*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+}
+
+#indexCover h2{
+  /*positioning*/
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*font attributes*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+}
+
+#indexCover img{
   height: 100%;
 }
 
 .indexInfo{
-  width: 85%;
-  margin-left: 255px;
-  float: left;
+  width: 90%;
+  margin: 5%;
 }
+
+.indexInfo h1{
+  font-size: 40px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  /*border-bottom-widtho: */
+}
+
+.indexInfo h2{
+  font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.indexInfo p{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  letter-spacing: 2px;
+}
+
 
 /**************************************************************/
 /***********************MAIN 4 MOBILE**************************/
