@@ -24,25 +24,25 @@
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
 
-      <!-- this is the banner/slideshow for the landing page before scrolling -->
-      <div class="banner">
+      <div class="cover">
         <!--Image Source: Shadows dance troupe Facebook page -->
-        <div class="banner-text">
+        <div class="covertext">
           <h1>Join</h1>
         </div>
       </div>
 
+      <div class="joinInfo">
       <!--general info-->
-      <div class="shadows">
-        <h1>Shadows Dance Troupe?</h1>
-          <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
-          <p>Check out our YouTube channel! <br/>
-          <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
+        <div class="shadows">
+          <h1>Shadows Dance Troupe?</h1>
+            <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
+            <p>Check out our YouTube channel! <br/>
+              <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
 
-          <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
-          <!--if clicked, scrolls down to audition section-->
-      </div>
-      <hr/>
+              <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
+              <!--if clicked, scrolls down to audition section-->
+        </div>
+        <hr/>
 
       <!--performance info-->
       <div class="performance">
@@ -89,10 +89,10 @@
           </figure>
         <!--add past workshop pictures + videos -->
       </div>
-
-
-
     </div>
+
+
+  </div>
 
 
 

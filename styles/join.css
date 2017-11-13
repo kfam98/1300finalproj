@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.banner {
+.cover {
   background-image: url("../images/join/join4.jpg");
   background-color: #111;
   width: 100%;
@@ -38,7 +38,7 @@
   position: relative;
 }
 
-.banner-text h1{
+.covertext h1{
   text-align: center;
   position: absolute;
   top: 40%;
@@ -61,7 +61,30 @@
   text-align: right;
 }
 
+.joinInfo{
+  width: 90%;
+  margin: 5%;
+}
 
+.joinInfo h1{
+  font-size: 40px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.joinInfo h2{
+  font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.joinInfo p{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  letter-spacing: 2px;
+}
 
 
 /**************************************************************/
