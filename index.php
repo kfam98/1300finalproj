@@ -29,12 +29,16 @@
       <div id="indexCover">
           <h1> SHADOWS </h1>
           <h2> DANCE TROUPE </h2>
-          <img id="scroll" alt="scroll" src="images/index/cover.gif">
+          <div id="indexScroll">
+            <a href="index.php#target">
+              <img alt="indexScroll" src="images/icons/arrow_white.png">
+            </a>
+          </div>
       </div>
 
       <!-- text details below -->
       <div class="indexInfo">
-        <h1> About </h1>
+        <h1> <a id="target"> About </a> </h1>
           <h2> Mission </h2>
             <p>
               Shadows Dance Troupe exists to provide Cornell students with the opportunity to dance and perform, with qualifications including experience, merit, enthusiasm, effort, and personal commitment. Shadows holds auditions twice a year: at the beginning of the fall semester and at the beginning of the spring semester. We are always looking for strong, talented dancers. If you are interested in auditioning, please look out for information on this page or contact one of our co-chairs!
@@ -46,6 +50,24 @@
           <h2> Meetings </h2>
             <p>
               We meet three times a week in WSH and Helen Newman, depending on availability of rehearsal space.
+            </p>
+      </div>
+
+      <!-- possible parallax implementation -->
+      <div id="indexMiddlePic">
+        <!-- image placed as background in css -->
+      </div>
+
+      <!-- second information section -->
+      <div class="indexInfo">
+        <h1> Schedule </h1>
+          <h2> Upcoming Events </h2>
+            <p>
+              place holder text
+            </p>
+          <h2> Past Events </h2>
+            <p>
+              place holder text
             </p>
       </div>
 
