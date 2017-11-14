@@ -89,6 +89,7 @@
 .indexInfo{
   width: 90%;
   margin: 5%;
+  opacity: 0.75;
 }
 
 .indexInfo h1{
