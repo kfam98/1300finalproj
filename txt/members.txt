@@ -1,21 +1,21 @@
-Katie O'Brien, 2018,President,blahblah
-Brendan Kirsh,2019,Treasurer,blahblah
-Claudia Nielsen,2018,PR,blahblah
-Ariana Korman,2018,Social,blahblah
-Cameron Swift,2020,Member,blahblah
-Catherine Tran,2020,Member,blahblah	
-Catie Wise,2021,Member,blahblah
-Dana Thornlow,2018/2019 PhD,Member,blahblah	
-Erica Holt,2021,Member,blahblah
-Jacqueline Glyman,2020,Member,blahblah
-Jasmine Peng, 2020,Member,blahblah	
-Jaye Ren,2020,Member,blahblah	
-Julia Albanese,	2020,Member,blahblah	
-Julia Walsh,2020,Member,blahblah						
-Kiara Olmeda,2019,Member,blahblah	
-Lucy Raymond,2021,Member,blahblah	
-Maya Coben,2021,Member,blahblah	
-Niara Hardister,2018,Member,blahblah	
-Samantha Lee,2021,Member,blahblah	
-Shannon Su,2019,Member,blahblah	
-Virginia Boldt,2019,Member,blahblah	
+Katie O'Brien,2018,President,katie2.jpg,blahblah
+Brendan Kirsh,2019,Treasurer,brendan_c.jpg,blahblah
+Claudia Nielsen,2018,PR,caludia2.jpg,blahblah
+Ariana Korman,2018,Social,ari_c.jpg,blahblah
+Cameron Swift,2020,Member,cam_c.jpg,blahblah
+Catherine Tran,2020,Member,cat2.jpg,blahblah	
+Catie Wise,2021,Member,catie_c.jpg,blahblah
+Dana Thornlow,2018/2019 PhD,Member,dana.jpg,blahblah	
+Erica Holt,2021,Member,erica2.jpg,blahblah
+Jacqueline Glyman,2020,Member,jac_c.jpg,blahblah
+Jasmine Peng, 2020,Member,jastime2.jpg,blahblah	
+Jaye Ren,2020,Member,jay2.jpg,blahblah	
+Julia Albanese,	2020,Member,juliaa.jpg,blahblah	
+Julia Walsh,2020,Member,juliaw2.jpg,blahblah						
+Kiara Olmeda,2019,Member,kiara_c.jpg,blahblah	
+Lucy Raymond,2021,Member,lucy2.jpg,blahblah	
+Maya Coben,2021,Member,maya_c.jpg,blahblah	
+Niara Hardister,2018,Member,niara_c.jpg,blahblah	
+Samantha Lee,2021,Member,samantha2.jpg,blahblah	
+Shannon Su,2019,Member,shannon_c.jpg,blahblah	
+Virginia Boldt,2019,Member,virginia_c.jpg,blahblah	

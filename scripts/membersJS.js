@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  var modal = document.getElementById('modal-id');
+  var modal = document.getElementById('modal-1');
 
   // Get the button that opens the modal
   var box = document.getElementById("box1");

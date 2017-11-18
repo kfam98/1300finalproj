@@ -13,9 +13,6 @@
 
 <body>
 
-  <!-- my php attempt -->
-  <!-- php include "includes/modalInfo.php";  -->
-
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
@@ -239,12 +236,14 @@
 
       </div>
 
+      <!-- my php attempt -->
+      <?php include "includes/modalInfo.php"; ?>
 
 
-      <div id="modal-id" class="modal">
+      <!-- <div id="modal-id" class="modal">-->
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <!-- <div class="modal-content">
           <span class="close">&times;</span>
           <img alt="modalpic" src="images/members/katie2.jpg">
           <div class="modal-content-text">
@@ -254,7 +253,8 @@
             <p>Some text in the Modal..</p>
           </div>
         </div>
-      </div>
+      </div> -->
+
 
     </div>
 
