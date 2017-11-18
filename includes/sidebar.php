@@ -22,9 +22,7 @@
 
   <!-- Social Media Icons -->
   <div class="socialmedia">
-    <a href=""><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
-    <a href=""><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
-    <a href=""><img class="mediaicon" alt="twitter" src="images/icons/world.png"/></a>
-    <a href=""><img class="mediaicon" alt="mail" src="images/icons/mail.png"/></a>
+    <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
+    <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
   </div>
 </div>

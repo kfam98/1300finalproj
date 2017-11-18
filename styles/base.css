@@ -107,8 +107,8 @@ li.active {
 /*Social Media Styling*/
 .socialmedia {
   width: 100%;
-  margin-left: 18%;
-  padding-top: 85%;
+  margin-left: 32%;
+  padding-top: 70%;
 
 }
 
@@ -169,7 +169,7 @@ li.active {
   }
 
   .socialmedia {
-    padding-top: 80%;
+    padding-top: 75%;
 
   }
 
@@ -232,7 +232,7 @@ li.active {
 @media only screen and (max-width : 480px) {
 
   .socialmedia {
-    padding-top: 80%;
+    padding-top: 70%;
   }
 
 }
@@ -241,7 +241,7 @@ li.active {
 @media only screen and (max-width : 320px) {
 
   .socialmedia {
-    padding-top: 55%;
+    padding-top: 40%;
   }
 }
 
@@ -250,7 +250,28 @@ li.active {
   .title {
     padding-top: 10%;
   }
+
+  #logo {
+    width: 65%;
+    padding-left: 10%;
+  }
   .socialmedia {
-    padding-top: 10%;
+    padding-top: 5%;
+    margin-left: 35%;
+  }
+
+  .navigation {
+    padding-left: 23%;
+  }
+
+  .sidebar .nav li {
+    width: 50%;
+
+
+  }
+
+  .sidebar .nav a {
+    font-size: 12px;
+
   }
 }
