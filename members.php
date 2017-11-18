@@ -16,7 +16,6 @@
   <!-- my php attempt -->
   <!-- php include "includes/modalInfo.php";  -->
 
-  <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
@@ -42,20 +41,26 @@
         <!-- row 1 -->
         <div class="row">
           <div class="col-1" id="box1">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name1">Katie O'Brien</span>
+            </div>
+            <div class="box-text">
               <p>President</p>
             </div>
           </div>
           <div class="col-2" id="box2">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name2">Brendan Kirsh</span>
+            </div>
+            <div class="box-text">
               <p>Treasurer</p>
             </div>
           </div>
           <div class="col-3" id="box3">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name3">Claudia Nielsen</span>
+            </div>
+            <div class="box-text">
               <p>Public Relations</p>
             </div>
           </div>
@@ -66,116 +71,168 @@
         <!-- row 2 -->
         <div class="row">
           <div class="col-1" id="box4">
-            <div class="box-text" >
+            <div class="name-overlay">
               <span class="name" id="name4">Ariana Korman</span>
+            </div>
+            <div class="box-text" >
               <p>Social</p>
             </div>
           </div>
           <div class="col-2" id="box5">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name5">Cameron Swift</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box6">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name6">Catherine Tran</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
         <!-- row 3 -->
         <div class="row">
           <div class="col-1" id="box7">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name7">Catie Wise</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-2" id="box8">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name8">Dana Thornlow</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box9">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name9">Erica Holt</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
         <!-- row 4-->
         <div class="row">
           <div class="col-1" id="box10">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name10">Jacqueline Glyman</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-2" id="box11">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name11">Jasmine Peng</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box12">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name12">Jaye Ren</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
         <!-- row 5 -->
         <div class="row">
           <div class="col-1" id="box13">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name13">Julia Albanese</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-2" id="box14">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name14">Julia Walsh</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box15">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name15">Kiara Olmeda</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
         <!-- row 6 -->
         <div class="row">
           <div class="col-1" id="box16">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name16">Lucy Raymond</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-2" id="box17">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name17">Maya Coben</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box18">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name18">Niara Hardister</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
         <!-- row 7 -->
         <div class="row">
           <div class="col-1" id="box19">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name19">Samantha Lee</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-2" id="box20">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name20">Shannon Su</span>
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
           <div class="col-3" id="box21">
-            <div class="box-text">
+            <div class="name-overlay">
               <span class="name" id="name21">Virginia Boldt</span>
-
             </div>
+            <!-- if member has a position, fill in div with p tag -->
+            <!-- <div class="box-text">
+            </div> -->
           </div>
         </div>
 
@@ -201,7 +258,6 @@
 
     </div>
 
-  </div>
 
 
 
