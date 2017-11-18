@@ -20,6 +20,7 @@
 .main {
   width: 83%;
   min-width: 600px;
+  border: solid 1px #979797;
 	height: 100%;
 	background-color: #d8d8d8;
   box-sizing: inherit;

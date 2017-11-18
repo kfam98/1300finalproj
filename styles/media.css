@@ -22,6 +22,7 @@
 	height: 100%;
 	background-color: #d8d8d8;
 	border: solid 1px #979797;
+  min-width: 600px;
   box-sizing: inherit;
   margin-left: 250px;
   overflow: hidden;
@@ -207,7 +208,7 @@
       position: relative;
     }
 
-  
+
 
   }
 
