@@ -13,7 +13,6 @@
 
 <body>
 
-  <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
@@ -91,8 +90,6 @@
       </div>
     </div>
 
-
-  </div>
 
 
 
