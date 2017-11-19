@@ -26,6 +26,7 @@
   box-sizing: inherit;
   margin-left: 250px;
   position: relative;
+  overflow: hidden;
 }
 
 .container {
@@ -82,11 +83,11 @@
   min-width: 90px;
   width: 33.3%;
   background-color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   filter: grayscale(100%);
+  overflow:hidden;
+  position:relative;
+
 }
 
 
@@ -132,7 +133,17 @@
   border: 2px solid white;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  /*background-color: #111;*/
 
+
+}
+
+.mem-img {
+
+  display: block;
+  width: 100%;
+
+  position: absolute;
 
 }
 
@@ -143,10 +154,14 @@
 
 }
 
-[class*="col-"]:hover  {
+[class*="col-"]:hover .mem-img {
   webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   cursor: pointer;
-  filter: grayscale(0%) blur(2px);
+  filter: blur(1px);
+}
+
+[class*="col-"]:hover  {
+  filter: grayscale(0%);
 }
 
 
@@ -167,29 +182,6 @@
 /*[class*="col-"]:hover {
   opacity: .8;
 }*/
-
-/*photo in each member grid*/
-#box1{background-image: url('../images/members/katie_c.jpg');}
-#box2{background-image: url('../images/members/brendan_c.jpg');}
-#box3{background-image: url('../images/members/claudia_c.jpg');}
-#box4{background-image: url('../images/members/ari_c.jpg');}
-#box5{background-image: url('../images/members/cam_c.jpg');}
-#box6{background-image: url('../images/members/cat_c.jpg');}
-#box7{background-image: url('../images/members/catie_c.jpg');}
-#box8{background-image: url('../images/members/dana_c.jpg');}
-#box9{background-image: url('../images/members/erica_c.jpg');}
-#box10{background-image: url('../images/members/jac_c.jpg');}
-#box11{background-image: url('../images/members/jasmine_c.jpg');}
-#box12{background-image: url('../images/members/jaye_c.jpg');}
-#box13{background-image: url('../images/members/juliaa_c.jpg');}
-#box14{background-image: url('../images/members/juliaw_c.jpg');}
-#box15{background-image: url('../images/members/kiara_c.jpg');}
-#box16{background-image: url('../images/members/lucy_c.jpg');}
-#box17{background-image: url('../images/members/maya_c.jpg');}
-#box18{background-image: url('../images/members/niara_c.jpg');}
-#box19{background-image: url('../images/members/samantha_c.jpg');}
-#box20{background-image: url('../images/members/shannon_c.jpg');}
-#box21{background-image: url('../images/members/virginia_c.jpg');}
 
 /* The Modal (background) */
 .modal {
@@ -230,6 +222,10 @@
 
 }
 
+.modalClicked {
+  display: block;
+}
+
 .modal-content img {
   position: relative;
   width: 40%;
@@ -260,6 +256,10 @@
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+}
+
+.closeClicked {
+  display: none;
 }
 
 .close:hover,
@@ -301,14 +301,20 @@
         background-position:left;
     }
 
+    .mem-img {
+      width: 100%;
+      margin-top: -250px; /* Half the height */
+
+    }
+
     .box-text {
       margin-top: 12%;
       top: 0;
     }
 
     .modal-content {
-      margin: 10% auto;
-      height: 40%;
+      margin: 15% auto;
+      height: 65%;
     }
 
     .modal-content img {

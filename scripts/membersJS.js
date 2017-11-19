@@ -1,29 +1,35 @@
 
 $(document).ready(function() {
-  var modal = document.getElementById('modal-1');
 
-  // Get the button that opens the modal
-  var box = document.getElementById("box1");
+  $('.clickMe').click(function(){
 
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+    //get ID of the div that was clicked
+    var clickedID = $(this).attr('id');
+    clickedID = clickedID.replace('box','');
 
-  // When the user clicks on the button, open the modal
-  box.onclick = function() {
-      modal.style.display = "block";
-  }
+    var modalID = "#modal-" + clickedID;
+    var boxID = "#box" + clickedID;
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-      modal.style.display = "none";
-  }
+    var modal = document.querySelector(modalID);
+    var span = document.getElementsByClassName("close")[clickedID - 1];
 
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-      if (event.target == modal) {
-          modal.style.display = "none";
-      }
-  }
+    //shows modal of the member that was clicked on
+    modal.className = "modal modalClicked";
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.className = "modal";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.className= "modal";
+        }
+    }
+
+  });
+
 
   // scrolls down with pretty animation
   $("#scroll").on("click", function() {

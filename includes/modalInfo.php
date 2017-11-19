@@ -16,14 +16,15 @@
     array_push($membersArray, $memberArray);
   }
 
+
   for($x = 0; $x < count($membersArray); $x++) {
 
     $modalID = $x + 1;
     $name = $membersArray[$x][0];
     $class = $membersArray[$x][1];
     $title = $membersArray[$x][2];
-    $imgSrc = $membersArray[$x][3];
-    $description = $membersArray[$x][4];
+    $imgSrc = $membersArray[$x][4];
+    $description = $membersArray[$x][5];
 
     print("");
     print("<div id=modal-".$modalID." class='modal'>
