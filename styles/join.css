@@ -9,24 +9,6 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-.menu {
-  visibility: hidden;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-}
-
-.main {
-  width: 83%;
-  min-width: 600px;
-	height: 100%;
-	background-color: white;
-	border: solid 1px #979797;
-  box-sizing: inherit;
-  margin-left: 250px;
-  overflow: hidden;
-  position: relative;
-}
 
 .cover {
   background-image: url("../images/join/join4.jpg");
@@ -37,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /*position: relative;*/
 }
 
 .covertext h1{
@@ -66,6 +48,7 @@
 .joinInfo{
   width: 90%;
   margin: 5%;
+  position: absolute;
 }
 
 .joinInfo h1{
@@ -96,44 +79,11 @@
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 1020px) {
 
-    .menu {
-      visibility: visible;
-      width: 50px;
-      height: auto;
-      position: fixed;
-      margin-top: 5%;
-      margin-left: 90%;
-      cursor: pointer;
-      z-index: 1;
 
-    }
-
-    .main {
-      width: 100%;
-      margin-left: 0;
-      position: relative;
-    }
 
   }
 
 @media only screen and (max-width : 470px) {
 
-  .menu {
-    visibility: visible;
-    width: 50px;
-    height: auto;
-    position: fixed;
-    margin-top: 10%;
-    margin-left: 80%;
-    cursor: pointer;
-    z-index: 1;
 
-  }
-
-
-  .main {
-    width: 100%;
-    margin-left: 0;
-    position: relative;
-  }
 }

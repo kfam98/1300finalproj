@@ -1,11 +1,13 @@
 <div id="sidebar" class="sidebar">
   <!-- Title/Logo Placement -->
   <div class='title'>
+
     <img id="logo" src="images/shadowsLogo.png" alt="logo">
   </div>
 
   <!-- Vertical Navigation Bar -->
   <div class='navigation'>
+
         <nav class ='nav'>
           <ul class='onclick-nav'>
             <li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'index.php'){echo 'active'; }else { echo ''; } ?>">

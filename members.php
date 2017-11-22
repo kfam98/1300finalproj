@@ -20,7 +20,7 @@
 
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
-      
+
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
 
@@ -31,6 +31,8 @@
           <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
+
+      <div class="aboveGrid"> <p>words and i am not sure what to put here naybe bios ooo fancy</p></div>
 
       <div class="container" id="container">
 

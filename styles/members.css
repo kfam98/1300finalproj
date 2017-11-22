@@ -9,42 +9,30 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-.menu {
-  visibility: hidden;
-  position: relative;
-  margin-top: 0;
-  margin-left: 0;
-  height: 0;
-}
 
-.main {
-  width: 83%;
-  min-width: 600px;
-  border: solid 1px #979797;
-	height: 100%;
-	background-color: #d8d8d8;
-  box-sizing: inherit;
-  margin-left: 250px;
-  position: relative;
-  overflow: hidden;
-}
-
-.container {
-  width: 100%;
-  height: inherit;
-  position: relative;
-}
 
 .banner {
   background-image: url("../images/shadows_dance_troupe.jpg");
   background-color: #111;
   width: 100%;
-  height: 30%;
-  min-height: 800px;
+  height: 100%;
+  min-height: 760px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  box-sizing: inherit;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-top: 10%;
+  position: absolute;
+  overflow-y:visible;
+  /*overflow-x: hidden;*/
+  /*background-color: #111;*/
 }
 
 .banner-text h1{
@@ -64,14 +52,25 @@
 
 #scroll {
   width: 5%;
-  margin-top: 58%;
-  margin-left: 45%;
+  margin-top: 50%;
+  margin-left: 48%;
 
 }
 
 #scroll:hover {
   opacity: .9;
   cursor: pointer;
+}
+
+
+.aboveGrid {
+  width: 100%;
+  color: black;
+  height: auto;
+  font-size: 40px;
+  position: absolute;
+  margin: 2%;
+  text-align: center;
 }
 
 /*grid layout: 3 columns, 7 rows for a total of 21 members*/
@@ -81,16 +80,15 @@
   min-height: 50px;
   height: 250px;
   min-width: 90px;
-  width: 33.3%;
+  width: 29.3%;
   background-color: white;
-  position: relative;
   filter: grayscale(100%);
   overflow:hidden;
-  position:relative;
+  position: relative;
+  margin: 2%;
+
 
 }
-
-
 
 .row::after {
   content: "";
@@ -158,13 +156,18 @@
   webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   cursor: pointer;
   filter: blur(1px);
+
+
 }
 
 [class*="col-"]:hover  {
   filter: grayscale(0%);
+  transition: .5s ease;
+  width: 30.3%;
+  margin-right: .5%;
+  margin-top: .5%;
+  margin-bottom: -1%;
 }
-
-
 
 
 
@@ -277,28 +280,23 @@
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 1020px) {
 
-    .menu {
-      visibility: visible;
-      width: 50px;
-      height: auto;
-      position: fixed;
-      margin-top: 5%;
-      margin-left: 90%;
-      cursor: pointer;
-      z-index: 1;
-    }
+
 
 
 
     .main {
       width: 100%;
       margin-left: 0;
-      position: relative;
+
     }
 
     [class*="col-"] {
         width: 100%;
         background-position:left;
+    }
+    [class*="col-"]:hover {
+        width: 100%;
+        margin: 2%;
     }
 
     .mem-img {
@@ -333,32 +331,24 @@
           width: 100%;
     }
 
+    #scroll {
+      margin-top: 50%;
+    }
+
 
 }
 
 @media only screen and (max-width : 470px) {
 
-    .menu {
-      visibility: visible;
-      width: 50px;
-      height: auto;
-      position: fixed;
-      margin-top: 10%;
-      margin-left: 80%;
-      cursor: pointer;
-      z-index: 1;
 
-    }
-
-
-    .main {
-      width: 100%;
-      margin-left: 0;
-      position: relative;
-    }
 
     [class*="col-"] {
         width: 100%;
+    }
+
+    [class*="col-"]:hover {
+        width: 100%;
+        margin: 2%;
     }
 
     .modal-content {
