@@ -21,6 +21,7 @@ body {
   font-weight: 500;
   margin: 0 auto;
   padding: 0;
+  overflow-x: hidden;
 
 }
 
@@ -65,11 +66,12 @@ body {
   box-shadow: 0 0 5px rgba(0,0,0,.3);
 
 
+
 }
 .slide-in {
-  -webkit-animation: slideIn  .7s forwards;
-  -moz-animation: slideIn .7s forwards;
-  animation: slideIn .7s forwards;
+  -webkit-animation: slideIn  .5s forwards;
+  -moz-animation: slideIn .5s forwards;
+  animation: slideIn .5s forwards;
 }
 
 /*animations for sidebar to slide in when clicked*/
@@ -99,8 +101,9 @@ body {
 }
 
 .slide-out {
-    animation: slide-out .7s forwards;
-    -webkit-animation: slide-out .7s forwards;
+    animation: slide-out .5s forwards;
+    -webkit-animation: slide-out .5s forwards;
+    -moz-animation: slide-out .5s forwards;
 
   }
 
@@ -113,7 +116,10 @@ body {
 0% { -webkit-transform: translateX(0%); }
 100% { -webkit-transform: translateX(-100%); }
 }
-
+@-moz-keyframes slideIn {
+  0% { -moz-transform: translateX(0%); }
+  100% { -moz-transform: translateX(-100%); }
+}
 .menu {
   visibility: visible;
   width: 50px;
@@ -130,7 +136,7 @@ body {
 #menu_pic {
   background-color: #FFF;
   padding: 10px;
-  
+
 }
 
 .menu:hover {
@@ -140,12 +146,10 @@ body {
 
 .closebtn {
     position: absolute;
-    /*top: -30px;*/
-    /*right: 3px;*/
-    font-size: 75px;
-    padding: 10px;
-    margin: 5px;
-    /*margin-left: 50px;*/
+    top: -10px;
+    font-size: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: none;
     background-color: #FFF;
     text-decoration: none;
@@ -239,7 +243,7 @@ li.active {
 
 @media only screen and (max-width : 1020px) {
 
-  }
+
 
 
   .socialmedia {
@@ -260,6 +264,25 @@ li.active {
 
   .socialmedia {
     padding-top: 70%;
+  }
+  .menu {
+    margin-left: 75%;
+    margin-top: 20%;
+
+  }
+
+
+
+  .sidebar {
+    width: 100%;
+  }
+
+  #menu_pic {
+    padding: 5px;
+  }
+
+  #scroll {
+    margin-top: 80%;
   }
 
 }

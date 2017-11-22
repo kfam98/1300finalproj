@@ -8,7 +8,7 @@ $(document).ready(function() {
       $("#menu_pic").show();
       $(".closebtn").hide();
       $(".banner").removeClass("mainDim");
-      $("body").removeClass("mainDim");
+      // $("body").removeClass("mainDim");
 
 
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
       $("#menu_pic").hide();
       $(".closebtn").show();
       $(".banner").addClass("mainDim");
-      $("body").addClass("mainDim");
+      // $("body").addClass("mainDim");
 
     }
 
