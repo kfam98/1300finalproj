@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="aboveGrid"> <p>words and i am not sure what to put here naybe bios ooo fancy</p></div>
+      <div class="aboveGrid"> <p>SHADOWS. DANCE. TROUPE.</p></div>
 
       <div class="container" id="container">
 
