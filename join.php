@@ -28,6 +28,7 @@
         <!--Image Source: Shadows dance troupe Facebook page -->
         <div class="covertext">
           <h1>Join</h1>
+          <img id="arrow" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 
@@ -46,7 +47,6 @@
 
       <!--performance info-->
       <div class="performance">
-        <h1> Shadows Fall Step 2017 </h1>
         <figure id="fallstepimg">
           <img alt="fallstep" src="images/join/fallstep.jpg"/>
         </figure>
@@ -54,28 +54,26 @@
           <p>Join Shadows Dance Troupe at Fall Step 2017: Cornell's Largest Dance Collective! This dynamic show features dance tropues from across campus in a wide range of styles, from contemporary to hip hop to
           cultural performances. A one-of-a kind opportunity to see the diverse dance talent at Cornell, all in Bailey Hall on one epic night. </p>
         </div>
-        <div class="fallstep_info">
-          <h2>When?</h2>
-            <p>Friday, December 1 at 8PM - 10PM</p>
-          <h2>Where?</h2>
-            <p>Bailey Hall</p>
+        <div class="fallstepDetail">
+          <p><span class="h2">When?</span> Friday, December 1 at 8PM - 10PM</p>
+          <p><span class="h2">Where?</span> Bailey Hall</p>
             <!--add google map maybe?-->
-          <h2>Ticket Information</h2>
-            <p>Get your ticket at <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">Bailey Ticket </a> for $6! </p>
+          <p><span class="h2">Ticket Information?</span> Get your ticket at <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">Bailey Ticket</a> for $6! </p>
         </div>
       </div>
       <hr/>
       <!--audition info-->
       <div class="audition">
+        <figure id="auditionimg">
+          <img alt="audition" src="images/join/audition.jpg"/>
+        </figure>
         <h1>Fall 2017 Audition</h1>
           <p> Come try out for Shadows Dance Troupe at our Fall 2017 auditions!
             We perform all styles of dance, including jazz contemporary, hip hop, tap, and more.
             Each year, we are known for hosting Fall Step, Cornell's largest dance collective in Bailey hall!
             Shadows dancers are active in the dance community - teaching CDA workshops, participating in multiple dance troupes, and performing across campus.
             We would love to see what you've got - auditions for Shadows! <p>
-          <figure id="auditioninfo">
-            <img alt="audition" src="images/join/audition.jpg"/>
-          </figure>
+
         <!--add map-->
       </div>
       <hr/>
@@ -83,15 +81,13 @@
       <!--workshop info-->
       <div class="workshop">
         <h1>Orientation Workshop</h1>
-          <figure>
+          <figure id="workshopimg">
             <img alt="workshop" src="images/join/workshop.jpg">
             <img alt="workshop" src="images/join/workshop2.jpg">
           </figure>
         <!--add past workshop pictures + videos -->
       </div>
     </div>
-
-
   </div>
 
 
