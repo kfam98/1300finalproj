@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="aboveGrid"> <p>SHADOWS. DANCE. TROUPE.</p></div>
+      <!-- <div class="aboveGrid"><p>Meet Our Members</p></div> -->
 
       <div class="container" id="container">
 
