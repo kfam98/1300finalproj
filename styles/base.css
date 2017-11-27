@@ -5,7 +5,9 @@
 /**************************************************************/
 
 
+body,
 html {
+  height: 100%;
   width: 100%;
 }
 
@@ -17,12 +19,30 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  width: 100%;
+  overflow-x: hidden;
 
 }
+
+
+.main {
+  width: 100%;
+  min-width: 600px;
+  border: solid 1px #979797;
+	height: 100%;
+	background-color: #d8d8d8;
+  /*box-sizing: inherit;*/
+  /*margin-left: 250px;*/
+  overflow: hidden;
+  position: flex;
+}
+
+.mainDim {
+  background-color: rgba(0,0,0,0.6);
+}
+
+
 
 /**************************************************************/
 /*********************SIDEBAR STYLING**************************/
@@ -35,17 +55,108 @@ body {
 }
 
 .sidebar {
-  width: 20%;
-  min-width: 250px;
-	height: 100%;
-	background-color: #ffffff;
-  box-sizing: inherit;
+  height: 200%;
   position: fixed;
-  /*overflow: hidden;*/
-  float: left;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  min-width: 250px;
+  width: 20%;
+  background-color:  #FFF;
+  opacity: .9;
+  z-index: 1;
+  display: none;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+
+
+
 }
+.slide-in {
+  -webkit-animation: slideIn  .5s forwards;
+  -moz-animation: slideIn .5s forwards;
+  animation: slideIn .5s forwards;
+}
+
+/*animations for sidebar to slide in when clicked*/
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-out {
+    animation: slide-out .5s forwards;
+    -webkit-animation: slide-out .5s forwards;
+    -moz-animation: slide-out .5s forwards;
+
+  }
+
+@keyframes slide-out {
+0% { transform: translateX(0%); }
+100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+0% { -webkit-transform: translateX(0%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@-moz-keyframes slideIn {
+  0% { -moz-transform: translateX(0%); }
+  100% { -moz-transform: translateX(-100%); }
+}
+.menu {
+  visibility: visible;
+  width: 50px;
+  height: auto;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 90%;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+
+}
+
+#menu_pic {
+  background-color: #FFF;
+  padding: 10px;
+
+}
+
+.menu:hover {
+  opacity: .7;
+}
+
+
+.closebtn {
+    position: absolute;
+    top: -10px;
+    font-size: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: none;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #111;
+    font-weight: 700;
+}
+
 
 
 .title {
@@ -107,8 +218,8 @@ li.active {
 /*Social Media Styling*/
 .socialmedia {
   width: 100%;
-  margin-left: 18%;
-  padding-top: 85%;
+  margin-left: 32%;
+  padding-top: 70%;
 
 }
 
@@ -131,100 +242,20 @@ li.active {
 /*changes sidebar to be hidden for mobile version and has animations*/
 
 @media only screen and (max-width : 1020px) {
-  .sidebar {
-    height: 100%;
-    position: fixed;
-    width: 250px;
-    z-index: 1;
-    display: none;
-    -webkit-animation: slideIn  .5s forwards;
-    -moz-animation: slideIn .5s forwards;
-    animation: slideIn .5s forwards;
-  }
 
-  /*animations for sidebar to slide in when clicked*/
-  @-webkit-keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @-moz-keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+
+
 
   .socialmedia {
-    padding-top: 80%;
+    padding-top: 75%;
 
   }
 
-  body,
-  html {
-    height: 100%;
-    width: 100%;
-  }
+
 }
 @media only screen and (max-width : 670px) {
   /*navigation menu w/ help from CSStricks.com*/
 
-  .sidebar {
-    height: 100%;
-    position: fixed;
-    width: 200px;
-    z-index: 1;
-    display: none;
-    -webkit-animation: slideIn  .5s forwards;
-    -moz-animation: slideIn .5s forwards;
-    animation: slideIn .5s forwards;
-  }
-
-  /*animations for sidebar to slide in when clicked*/
-  @-webkit-keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @-moz-keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @keyframes slideIn {
-    0% {
-      transform: translateX(-900px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-
-  body,
-  html {
-    height: 100%;
-    width: 100%;
-  }
 
 }
 
@@ -232,7 +263,26 @@ li.active {
 @media only screen and (max-width : 480px) {
 
   .socialmedia {
-    padding-top: 80%;
+    padding-top: 70%;
+  }
+  .menu {
+    margin-left: 75%;
+    margin-top: 20%;
+
+  }
+
+
+
+  .sidebar {
+    width: 100%;
+  }
+
+  #menu_pic {
+    padding: 5px;
+  }
+
+  #scroll {
+    margin-top: 80%;
   }
 
 }
@@ -241,7 +291,7 @@ li.active {
 @media only screen and (max-width : 320px) {
 
   .socialmedia {
-    padding-top: 55%;
+    padding-top: 40%;
   }
 }
 
@@ -250,7 +300,28 @@ li.active {
   .title {
     padding-top: 10%;
   }
+
+  #logo {
+    width: 65%;
+    padding-left: 10%;
+  }
   .socialmedia {
-    padding-top: 10%;
+    padding-top: 5%;
+    margin-left: 35%;
+  }
+
+  .navigation {
+    padding-left: 23%;
+  }
+
+  .sidebar .nav li {
+    width: 50%;
+
+
+  }
+
+  .sidebar .nav a {
+    font-size: 12px;
+
   }
 }

@@ -13,10 +13,6 @@
 
 <body>
 
-  <!-- my php attempt -->
-  <!-- php include "includes/modalInfo.php";  -->
-
-  <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
@@ -24,6 +20,7 @@
 
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
+
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
 
@@ -35,176 +32,20 @@
         </div>
       </div>
 
+      <div class="aboveGrid"> <p>SHADOWS. DANCE. TROUPE.</p></div>
+
       <div class="container" id="container">
 
-
-
-        <!-- row 1 -->
-        <div class="row">
-          <div class="col-1" id="box1">
-            <div class="box-text">
-              <span class="name" id="name1">Katie O'Brien</span>
-              <p>President</p>
-            </div>
-          </div>
-          <div class="col-2" id="box2">
-            <div class="box-text">
-              <span class="name" id="name2">Brendan Kirsh</span>
-              <p>Treasurer</p>
-            </div>
-          </div>
-          <div class="col-3" id="box3">
-            <div class="box-text">
-              <span class="name" id="name3">Claudia Nielsen</span>
-              <p>Public Relations</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- row 2 -->
-        <div class="row">
-          <div class="col-1" id="box4">
-            <div class="box-text" >
-              <span class="name" id="name4">Ariana Korman</span>
-              <p>Social</p>
-            </div>
-          </div>
-          <div class="col-2" id="box5">
-            <div class="box-text">
-              <span class="name" id="name5">Cameron Swift</span>
-            </div>
-          </div>
-          <div class="col-3" id="box6">
-            <div class="box-text">
-              <span class="name" id="name6">Catherine Tran</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- row 3 -->
-        <div class="row">
-          <div class="col-1" id="box7">
-            <div class="box-text">
-              <span class="name" id="name7">Catie Wise</span>
-            </div>
-          </div>
-          <div class="col-2" id="box8">
-            <div class="box-text">
-              <span class="name" id="name8">Dana Thornlow</span>
-            </div>
-          </div>
-          <div class="col-3" id="box9">
-            <div class="box-text">
-              <span class="name" id="name9">Erica Holt</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- row 4-->
-        <div class="row">
-          <div class="col-1" id="box10">
-            <div class="box-text">
-              <span class="name" id="name10">Jacqueline Glyman</span>
-            </div>
-          </div>
-          <div class="col-2" id="box11">
-            <div class="box-text">
-              <span class="name" id="name11">Jasmine Peng</span>
-            </div>
-          </div>
-          <div class="col-3" id="box12">
-            <div class="box-text">
-              <span class="name" id="name12">Jaye Ren</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- row 5 -->
-        <div class="row">
-          <div class="col-1" id="box13">
-            <div class="box-text">
-              <span class="name" id="name13">Julia Albanese</span>
-            </div>
-          </div>
-          <div class="col-2" id="box14">
-            <div class="box-text">
-              <span class="name" id="name14">Julia Walsh</span>
-            </div>
-          </div>
-          <div class="col-3" id="box15">
-            <div class="box-text">
-              <span class="name" id="name15">Kiara Olmeda</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- row 6 -->
-        <div class="row">
-          <div class="col-1" id="box16">
-            <div class="box-text">
-              <span class="name" id="name16">Lucy Raymond</span>
-            </div>
-          </div>
-          <div class="col-2" id="box17">
-            <div class="box-text">
-              <span class="name" id="name17">Maya Coben</span>
-            </div>
-          </div>
-          <div class="col-3" id="box18">
-            <div class="box-text">
-              <span class="name" id="name18">Niara Hardister</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- row 7 -->
-        <div class="row">
-          <div class="col-1" id="box19">
-            <div class="box-text">
-              <span class="name" id="name19">Samantha Lee</span>
-            </div>
-          </div>
-          <div class="col-2" id="box20">
-            <div class="box-text">
-              <span class="name" id="name20">Shannon Su</span>
-            </div>
-          </div>
-          <div class="col-3" id="box21">
-            <div class="box-text">
-              <span class="name" id="name21">Virginia Boldt</span>
-
-            </div>
-          </div>
-        </div>
-
+        <!-- PHP generates interactive member grid -->
+        <?php include "includes/gridBoxInfo.php"; ?>
 
       </div>
 
+      <!-- PHP generates the modal for each member grid -->
+      <?php include "includes/modalInfo.php"; ?>
 
-
-      <div id="modal-id" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <img alt="modalpic" src="images/members/katie2.jpg">
-          <div class="modal-content-text">
-            <h1>Name</h1>
-            <h2>Title</h2>
-            <h2>Class</h2>
-            <p>Some text in the Modal..</p>
-          </div>
-        </div>
-      </div>
 
     </div>
-
-  </div>
-
-
-
 
 </body>
 </html>

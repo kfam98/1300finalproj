@@ -9,38 +9,30 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-.menu {
-  visibility: hidden;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-}
 
-.main {
-  width: 83%;
-  min-width: 600px;
-	height: 100%;
-	background-color: #d8d8d8;
-  box-sizing: inherit;
-  margin-left: 250px;
-  position: relative;
-}
-
-.container {
-  width: 100%;
-  height: inherit;
-  position: relative;
-}
 
 .banner {
   background-image: url("../images/shadows_dance_troupe.jpg");
   background-color: #111;
   width: 100%;
-  height: 28%;
+  height: 100%;
+  min-height: 760px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  box-sizing: inherit;
+}
+
+
+.container {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10%;
+  position: absolute;
+  overflow-y:visible;
+  /*overflow-x: hidden;*/
+  /*background-color: #111;*/
 }
 
 .banner-text h1{
@@ -59,15 +51,27 @@
 }
 
 #scroll {
-  width: 10%;
-  margin-top: 58%;
-  margin-left: 45%;
+  width: 5%;
+  margin-top: 48%;
+  margin-left: 48%;
 
 }
 
 #scroll:hover {
   opacity: .9;
   cursor: pointer;
+}
+
+
+.aboveGrid {
+  width: 100%;
+  color: black;
+  height: auto;
+  font-size: 40px;
+  font-weight: lighter;
+  position: absolute;
+  margin: 2%;
+  text-align: center;
 }
 
 /*grid layout: 3 columns, 7 rows for a total of 21 members*/
@@ -77,16 +81,15 @@
   min-height: 50px;
   height: 250px;
   min-width: 90px;
-  width: 33.3%;
+  width: 29.0%;
   background-color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  filter: grayscale(100%);
+  overflow:hidden;
   position: relative;
-}
+  margin: 2%;
+  border: 1px solid white;
 
-[class*="col-"]:hover {
-  opacity: .8;
+
 }
 
 .row::after {
@@ -109,69 +112,81 @@
   font-weight: 700;
   /*line-height: 64px;*/
   padding: 5%;
+  padding-top: 15%;
   width: 65%;
 }
 
 .box-text p {
-  font-size: 12px;
+  font-size: 15px;
   padding: 2px;
 }
 
-.name {
-  cursor: pointer;
-  border: 2px solid black;
-  background-color: #FFF;
-  padding: 5%;
-  font-weight: 700;
-  font-size: 18px;
-  color: #111;
+
+.name-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 3%;
+  text-align: center;
+  border: 2px solid white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /*background-color: #111;*/
+
+
+}
+
+.mem-img {
+
+  display: block;
   width: 100%;
+
+  position: absolute;
+
+}
+
+[class*="col-"]:hover .name-overlay {
+  opacity: .9;
+  webkit-filter: none; /* Chrome, Safari, Opera */
+  filter:none;
+
+}
+
+[class*="col-"]:hover .mem-img {
+  webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  cursor: pointer;
+  filter: blur(1px);
+
+
+}
+
+[class*="col-"]:hover  {
+  filter: grayscale(0%);
+  transition: .5s ease;
+  width: 29.3%;
+  margin-right: .5%;
+  margin-top: .5%;
+  margin-bottom: -1%;
 }
 
 
-/*photo in each member grid*/
-#box1{background-image: url('../images/members/katie_bw.jpg');}
-#box1:hover {background-image: url('../images/members/katie_c.jpg'); cursor: pointer;}
-#box2{background-image: url('../images/members/brendan_bw.jpg');}
-#box2:hover {background-image: url('../images/members/brendan_c.jpg'); cursor: pointer;}
-#box3{background-image: url('../images/members/claudia_bw.jpg');}
-#box3:hover {background-image: url('../images/members/claudia_c.jpg'); cursor: pointer;}
-#box4{background-image: url('../images/members/ari_bw.jpg');}
-#box4:hover {background-image: url('../images/members/ari_c.jpg'); cursor: pointer;}
-#box5{background-image: url('../images/members/cam_bw.jpg');}
-#box5:hover {background-image: url('../images/members/cam_c.jpg'); cursor: pointer;}
-#box6{background-image: url('../images/members/cat_bw.jpg');}
-#box6:hover {background-image: url('../images/members/cat_c.jpg'); cursor: pointer;}
-#box7{background-image: url('../images/members/catie_bw.jpg');}
-#box7:hover {background-image: url('../images/members/catie_c.jpg'); cursor: pointer;}
-#box8{background-image: url('../images/members/dana_bw.jpg');}
-#box8:hover {background-image: url('../images/members/dana_c.jpg'); cursor: pointer;}
-#box9{background-image: url('../images/members/erica_bw.jpg');}
-#box9:hover {background-image: url('../images/members/erica_c.jpg'); cursor: pointer;}
-#box10{background-image: url('../images/members/jac_bw.jpg');}
-#box10:hover {background-image: url('../images/members/jac_c.jpg'); cursor: pointer;}
-#box11{background-image: url('../images/members/jasmine_bw.jpg');}
-#box11:hover {background-image: url('../images/members/jasmine_c.jpg'); cursor: pointer;}
-#box12{background-image: url('../images/members/jaye_bw.jpg');}
-#box12:hover {background-image: url('../images/members/jaye_c.jpg'); cursor: pointer;}
-#box13{background-image: url('../images/members/juliaa_bw.jpg');}
-#box13:hover {background-image: url('../images/members/juliaa_c.jpg'); cursor: pointer;}
-#box14{background-image: url('../images/members/juliaw_bw.jpg');}
-#box14:hover {background-image: url('../images/members/juliaw_c.jpg'); cursor: pointer;}
-#box15{background-image: url('../images/members/kiara_bw.jpg');}
-#box15:hover {background-image: url('../images/members/kiara_c.jpg'); cursor: pointer;}
-#box16{background-image: url('../images/members/lucy_bw.jpg');}
-#box16:hover {background-image: url('../images/members/lucy_c.jpg'); cursor: pointer;}
-#box17{background-image: url('../images/members/maya_bw.jpg');}
-#box17:hover {background-image: url('../images/members/maya_c.jpg'); cursor: pointer;}
-#box18{background-image: url('../images/members/niara_bw.jpg');}
-#box18:hover {background-image: url('../images/members/niara_c.jpg'); cursor: pointer;}
-#box19{background-image: url('../images/members/samantha_bw.jpg');}
-#box19:hover {background-image: url('../images/members/samantha_c.jpg'); cursor: pointer;}
-#box20{background-image: url('../images/members/shannon_bw.jpg');}
-#box20:hover {background-image: url('../images/members/shannon_c.jpg'); cursor: pointer;}
-#box21{background-image: url('../images/members/virginia_bw.jpg');}
-#box21:hover {background-image: url('../images/members/virginia_c.jpg'); cursor: pointer;}
+
+.name {
+  cursor: pointer;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFF;
+  width: 100%;
+
+}
+
+
+/*[class*="col-"]:hover {
+  opacity: .8;
+}*/
 
 /* The Modal (background) */
 .modal {
@@ -212,6 +227,10 @@
 
 }
 
+.modalClicked {
+  display: block;
+}
+
 .modal-content img {
   position: relative;
   width: 40%;
@@ -244,6 +263,10 @@
   transition: 0.3s;
 }
 
+.closeClicked {
+  display: none;
+}
+
 .close:hover,
 .close:focus {
     color: black;
@@ -259,27 +282,30 @@
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 1020px) {
 
-    .menu {
-      visibility: visible;
-      width: 50px;
-      height: auto;
-      position: fixed;
-      margin-top: 5%;
-      margin-left: 90%;
-      cursor: pointer;
-      z-index: 1;
-
-    }
 
     .main {
       width: 100%;
       margin-left: 0;
-      position: relative;
+
+    }
+
+    .container {
+      width: 100%;
     }
 
     [class*="col-"] {
         width: 100%;
         background-position:left;
+    }
+    [class*="col-"]:hover {
+        width: 100%;
+        margin: 2%;
+    }
+
+    .mem-img {
+      width: 100%;
+      margin-top: -250px; /* Half the height */
+
     }
 
     .box-text {
@@ -288,8 +314,9 @@
     }
 
     .modal-content {
-      margin: 10% auto;
-      height: 40%;
+      margin: 15% auto;
+      height: 65%;
+      width: 100%;
     }
 
     .modal-content img {
@@ -304,8 +331,12 @@
 
     }
 
-    .modal-content {
-          width: 100%;
+    #scroll {
+      margin-top: 50%;
+    }
+
+    .banner-text h1{
+      margin-left: 5%;
     }
 
 
@@ -313,33 +344,30 @@
 
 @media only screen and (max-width : 470px) {
 
-    .menu {
-      visibility: visible;
-      width: 50px;
-      height: auto;
-      position: fixed;
-      margin-top: 10%;
-      margin-left: 80%;
-      cursor: pointer;
-      z-index: 1;
-
-    }
-
-
     .main {
       width: 100%;
       margin-left: 0;
-      position: relative;
+
     }
 
     [class*="col-"] {
         width: 100%;
+        background-position:left;
+        margin: 0;
+    }
+    [class*="col-"]:hover {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mem-img {
+      margin-top: 0;
     }
 
     .modal-content {
       margin: 50% auto;
-      width: 100%;
-      height: 50%;
+      width: 70%;
+      height: 60%;
 
     }
 
@@ -354,8 +382,12 @@
     }
 
     #scroll {
-      margin-left: 40%;
+      margin-left: 30%;
+      width: 10%;
+      margin-top: 80%;
     }
+
+
 
 
 

@@ -1,5 +1,5 @@
 <?php
-  $txtFile = fopen("members.txt", "r") or die("Unable to open file!");
+  $txtFile = fopen("txt/members.txt", "r") or die("Unable to open file!");
 
   $name;
   $position;
@@ -10,15 +10,39 @@
 
   while(!feof($txtFile)) {
     $member = fgets($txtFile);
-    var_dump($member);
+
     $memberArray = explode(",", $member);
 
     array_push($membersArray, $memberArray);
   }
-  echo("array bishes");
-  var_dump($membersArray);
-  // if button is clicked
-  // then print modal div of specific member
+
+
+  for($x = 0; $x < count($membersArray); $x++) {
+
+    $modalID = $x + 1;
+    $name = $membersArray[$x][0];
+    $class = $membersArray[$x][1];
+    $title = $membersArray[$x][2];
+    $imgSrc = $membersArray[$x][4];
+    $description = $membersArray[$x][5];
+
+    print("");
+    print("<div id=modal-".$modalID." class='modal'>
+
+      <!-- Modal content -->
+      <div class='modal-content'>
+        <span class='close'>&times;</span>
+        <img alt='modalpic' src='images/members/".$imgSrc."'>
+        <div class='modal-content-text'>
+          <h1>".$name."</h1>
+          <h2>".$title."</h2>
+          <h2>Class of ".$class."</h2>
+          <p>".$description."</p>
+        </div>
+      </div>
+    </div>");
+  }
+
 
   fclose($txtFile);
 

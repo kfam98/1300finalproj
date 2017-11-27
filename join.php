@@ -13,7 +13,6 @@
 
 <body>
 
-  <div class="content">
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
@@ -37,7 +36,7 @@
         <div class="shadows">
           <h1>Shadows Dance Troupe?</h1>
             <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
-            <p>Check out our YouTube channel! <br/>
+            <p>Check out our YouTube channel!
               <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
 
               <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
@@ -64,12 +63,12 @@
       <hr/>
       <!--audition info-->
       <div class="audition">
+        <h1>Fall 2017 Audition</h1>
         <figure id="auditionimg">
           <img alt="audition" src="images/join/audition.jpg"/>
         </figure>
-        <h1>Fall 2017 Audition</h1>
           <p> Come try out for Shadows Dance Troupe at our Fall 2017 auditions!
-            We perform all styles of dance, including jazz contemporary, hip hop, tap, and more.
+            We perform all styles of dance, including <b> jazz contemporary, hip hop, tap, and more.</b>
             Each year, we are known for hosting Fall Step, Cornell's largest dance collective in Bailey hall!
             Shadows dancers are active in the dance community - teaching CDA workshops, participating in multiple dance troupes, and performing across campus.
             We would love to see what you've got - auditions for Shadows! <p>
@@ -88,7 +87,7 @@
         <!--add past workshop pictures + videos -->
       </div>
     </div>
-  </div>
+
 
 
 
