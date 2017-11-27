@@ -43,6 +43,16 @@
   margin-left: 50%;
 }
 
+#arrow:hover {
+  opacity: .9;
+  cursor: pointer;
+}
+
+hr{
+  height: 10px;
+  background-color: black;
+}
+
 .performance img, .audition img, .workshop img{
   width: 100%;
 }
@@ -55,6 +65,7 @@
 
 .joinInfo h1{
   font-size: 40px;
+  margin-bottom: 0;
   /*margin-top: 1%;
   margin-left: 2%;*/
 }
@@ -72,8 +83,8 @@
 }
 
 .h2{
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 #fallstepimg, #auditionimg, #workshopimg{

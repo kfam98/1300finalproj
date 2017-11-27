@@ -31,10 +31,12 @@
         </div>
       </div>
 
+    <div class="join">
       <div class="joinInfo">
       <!--general info-->
         <div class="shadows">
           <h1>Shadows Dance Troupe?</h1>
+          <hr/>
             <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
             <p>Check out our YouTube channel!
               <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
@@ -42,10 +44,11 @@
               <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
               <!--if clicked, scrolls down to audition section-->
         </div>
-        <hr/>
 
       <!--performance info-->
       <div class="performance">
+        <h1> Fall Step 2017</h1>
+        <hr/>
         <figure id="fallstepimg">
           <img alt="fallstep" src="images/join/fallstep.jpg"/>
         </figure>
@@ -60,10 +63,11 @@
           <p><span class="h2">Ticket Information?</span> Get your ticket at <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">Bailey Ticket</a> for $6! </p>
         </div>
       </div>
-      <hr/>
+
       <!--audition info-->
       <div class="audition">
         <h1>Fall 2017 Audition</h1>
+        <hr/>
         <figure id="auditionimg">
           <img alt="audition" src="images/join/audition.jpg"/>
         </figure>
@@ -75,11 +79,11 @@
 
         <!--add map-->
       </div>
-      <hr/>
 
       <!--workshop info-->
       <div class="workshop">
         <h1>Orientation Workshop</h1>
+        <hr/>
           <figure id="workshopimg">
             <img alt="workshop" src="images/join/workshop.jpg">
             <img alt="workshop" src="images/join/workshop2.jpg">
@@ -87,10 +91,7 @@
         <!--add past workshop pictures + videos -->
       </div>
     </div>
-
-
-
-
+  </div>
   </div>
 </body>
 </html>
