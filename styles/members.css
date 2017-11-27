@@ -21,6 +21,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: inherit;
+  background-attachment: fixed;
 }
 
 
@@ -36,18 +37,15 @@
 }
 
 .banner-text h1{
-  text-align: center;
+  /*positioning*/
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  font-size: 100px;
   transform: translate(-50%, -50%);
-  text-transform: uppercase;
   color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
-  line-height: 64px;
-  /*padding: 20px 30px;*/
+  /*font attributes*/
+  font-size: 75px;
+  text-shadow: 0px 0px 10px black;
 }
 
 #scroll {
@@ -114,6 +112,7 @@
   padding: 5%;
   padding-top: 15%;
   width: 65%;
+  text-shadow: 0px 0px 2px white;
 }
 
 .box-text p {

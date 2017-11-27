@@ -6,6 +6,10 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/media.css" media="all"/>
+
+  <!-- google fonts -->
+  <?php include "includes/googleFonts.php"; ?>
+
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
@@ -28,7 +32,7 @@
     </div>
 
     <div class="slideshow-container">
-      <div class="Media-box">
+      <div class="target">
         <div class="mySlides fade">
           <div class="numbertext">1 / 8</div>
           <img src="images/media/Group1.jpg" alt="Group1" style="width:100%">
@@ -86,6 +90,7 @@
       </div>
 
     </div>
+
 
 
   </div>

@@ -4,6 +4,35 @@
 /************************do NOT edit***************************/
 /**************************************************************/
 
+/* GOOGLE FONTS STYLING */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-size: 43px;
+    margin: 0 0 23px 0;
+    color: #39424f;
+    }
+h2 {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0 0 23px 0;
+    color: #485466;
+    }
+p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    color: #485466;
+    }
+
+/* END GOOGLE FONTS STYLING */
 
 body,
 html {
@@ -13,7 +42,7 @@ html {
 
 body {
   background-color: #FFF;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   letter-spacing: 100;
   font-size: 14px;
   font-style: normal;
@@ -22,7 +51,6 @@ body {
   margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
-
 }
 
 
@@ -31,7 +59,7 @@ body {
   min-width: 600px;
   border: solid 1px #979797;
 	height: 100%;
-	background-color: #d8d8d8;
+	background-color: white;
   /*box-sizing: inherit;*/
   /*margin-left: 250px;*/
   overflow: hidden;
@@ -60,12 +88,12 @@ body {
   min-width: 250px;
   width: 20%;
   background-color:  #FFF;
-  opacity: .9;
+  opacity: .95;
   z-index: 1;
   display: none;
   box-shadow: 0 0 5px rgba(0,0,0,.3);
-
-
+  font: "Oswald";
+  color: #485466;
 
 }
 .slide-in {
@@ -130,7 +158,8 @@ body {
   cursor: pointer;
   z-index: 1;
   background-color: #FFF;
-  /*box-shadow: 10px 10px 5px #d3d3d3;*/
+  box-shadow: 0px 0px 5px #bababa;
+  opacity: 0.85;
 
 }
 
@@ -141,13 +170,13 @@ body {
 }
 
 .menu:hover {
-  opacity: .7;
+  opacity: 1;
 }
 
 
 .closebtn {
     position: absolute;
-    top: -20px;
+    top: -10px;
     font-size: 70px;
     height: 100%;
     padding-right: 10px;
@@ -222,7 +251,7 @@ li.active {
 .socialmedia {
   width: 100%;
   margin-left: 32%;
-  padding-top: 35%;
+  padding-top: 25%;
 
 }
 

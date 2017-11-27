@@ -9,34 +9,10 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-h1 {
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 46px;
-    font-size: 43px;
-    margin: 0 0 23px 0;
-    }
-h2 {
-    font-family: 'Cantarell', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    margin: 0 0 23px 0;
-    }
-p {
-    font-family: 'Cantarell', sans-serif;
-    font-size: 17px;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    }
-
 #indexCover{
   background-image: url("../images/index/cover.gif");
   background-color: black;
-  height: 826px;
+  height: 740px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,33 +27,26 @@ p {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*font attributes*/
-  /*font-family: 'Fjalla One', sans-serif;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 64px;
-  text-align: center;*/
   color: white;
+  /*font attributes*/
+  font-size: 75px;
+  text-shadow: 0px 0px 10px black;
 }
 
 #indexCover h2{
   /*positioning*/
   position: absolute;
-  top: 52%;
+  top: 46%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   /*font attributes*/
-  /*font-family: 'Cantarell', sans-serif;
-  font-size: 65px;
-  font-weight: 700;
-  line-height: 64px;
-  text-align: center;
-  color: white;*/
+  color: white;
+  letter-spacing: 5px;
+  font-size: 30px;
 }
 
 #indexCover img{
   height: 100%;
-  /*margin-left: 250px;*/
 }
 
 #scroll {
@@ -95,7 +64,6 @@ p {
 .indexInfo{
   width: 90%;
   margin: 5%;
-  opacity: 0.75;
 }
 
 .indexInfo h1{
@@ -115,10 +83,10 @@ p {
   font-weight: lighter;
   margin-top: 1%;
   margin-bottom: 3%;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
 }
 
-#indexMiddlePic{
+.parallax{
   /* The image used */
   background: url("../images/index/Group1.jpg");
 
@@ -134,6 +102,9 @@ p {
   /*background-color: black;*/
   }
 
+#fallStepImg{
+  width: 100%
+}
 
 /**************************************************************/
 /***********************MAIN 4 MOBILE**************************/

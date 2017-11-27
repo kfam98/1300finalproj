@@ -12,19 +12,15 @@
 
 
 .central {
-  display: flex;
-  justify-content: center;
-  width: 388px;
-  height: 172px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 144px;
-  font-weight: 600;
-  letter-spacing: -0.3px;
-  text-align: center;
+  /*positioning*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  margin-left: 35%;
-  margin-top: 270px;
-  margin-bottom: 150px;
+  /*font attributes*/
+  font-size: 75px;
+  text-shadow: 0px 0px 10px black;
 }
 
 .main {
@@ -35,11 +31,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  float: left;
+  background-attachment: fixed;
+  background-color: black;
 }
 
 #scroll {
   width: 5%;
-  margin-top: 6.9%;
+  margin-top: 48%;
   margin-left: 48%;
 
 }
@@ -74,12 +73,13 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
-  margin-left: 70px;
-  margin-top: 200px;
-  margin-bottom: 10px;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: 20%;
+  padding-bottom: 7.5%;
   width: 90%;
   position: absolute;
+  float: left;
 }
 
 .mySlides {
