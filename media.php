@@ -29,42 +29,42 @@
     <div class="slideshow-container">
       <div class="Media-box">
         <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
+          <div class="numbertext">1 / 8</div>
           <img src="images/media/Group1.jpg" alt="Group1" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
+          <div class="numbertext">2 / 8</div>
           <img src="images/media/Group2.jpg" alt="Group2" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">3 / 8</div>
           <img src="images/media/Group3.jpg" alt="Group3" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">4 / 8</div>
           <img src="images/media/Group4.jpg" alt="Group4" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">5 / 8</div>
           <img src="images/media/Group5.jpg" alt="Group5" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">6 / 8</div>
           <img src="images/media/Group6.jpg" alt="Group6" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">7 / 8</div>
           <img src="images/media/Group7.jpg" alt="Group7" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
+          <div class="numbertext">8 / 8</div>
           <img src="images/media/Group8.jpg" alt="Group8" style="width:100%">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -83,11 +83,12 @@
         <span class="dot"></span>
         <span class="dot"></span>
       </div>
-      <script type="text/javascript" src="scripts/slideshow.js"></script>
-      <script type="text/javascript" src="scripts/dot.js"></script>
+
     </div>
 
 
   </div>
 </body>
+<script type="text/javascript" src="scripts/slideshow.js"></script>
+<script type="text/javascript" src="scripts/dot.js"></script>
 </html>
