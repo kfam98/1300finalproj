@@ -27,7 +27,7 @@
         <!--Image Source: Shadows dance troupe Facebook page -->
         <div class="covertext">
           <h1>Join</h1>
-          <img id="arrow" alt="scroll" src="images/icons/arrow_white.png">
+          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 

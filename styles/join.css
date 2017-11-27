@@ -37,13 +37,14 @@
   /*padding: 20px 30px;*/
 }
 
-#arrow{
+#scroll {
   width: 5%;
-  margin-top: 50%;
-  margin-left: 50%;
+  margin-top: 48%;
+  margin-left: 48%;
+
 }
 
-#arrow:hover {
+#scroll:hover {
   opacity: .9;
   cursor: pointer;
 }

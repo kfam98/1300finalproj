@@ -6,6 +6,12 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/index.css" media="all"/>
+
+  <!-- google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
+
+
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
 </head>
@@ -27,11 +33,11 @@
 
       <!-- this is the banner/slideshow for the landing page before scrolling -->
       <div id="indexCover">
-          <h1> SHADOWS </h1>
-          <h2> DANCE TROUPE </h2>
+          <h1 id=indexCoverFirst> SHADOWS </h1>
+          <h1 id=indexCoverSecond> Dance Troupe </h1>
           <div id="indexScroll">
             <a href="index.php#target">
-              <img alt="indexScroll" src="images/icons/arrow_white.png">
+              <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
             </a>
           </div>
       </div>
