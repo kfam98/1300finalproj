@@ -84,6 +84,7 @@
       <div class="workshop">
         <h1>Orientation Workshop</h1>
         <hr/>
+        <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dace O-Week Workshops</a>!</p>
           <figure id="workshopimg">
             <img alt="workshop" src="images/join/workshop.jpg">
             <img alt="workshop" src="images/join/workshop2.jpg">
