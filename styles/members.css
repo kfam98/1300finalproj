@@ -9,7 +9,9 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-
+.main{
+  background-color: white;
+}
 
 .banner {
   background-image: url("../images/shadows_dance_troupe.jpg");

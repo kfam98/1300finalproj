@@ -9,6 +9,9 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
+.main{
+  background-color: white;
+}
 
 .cover {
   background-image: url("../images/join/join4.jpg");
