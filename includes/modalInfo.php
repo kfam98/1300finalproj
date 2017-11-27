@@ -24,7 +24,6 @@
     $class = $membersArray[$x][1];
     $title = $membersArray[$x][2];
     $imgSrc = $membersArray[$x][4];
-    $description = $membersArray[$x][5];
 
     print("");
     print("<div id=modal-".$modalID." class='modal'>
@@ -32,12 +31,13 @@
       <!-- Modal content -->
       <div class='modal-content'>
         <span class='close'>&times;</span>
-        <img alt='modalpic' src='images/members/".$imgSrc."'>
+        <div class='modalpicdiv'>
+          <img alt='modalpic' src='images/members/".$imgSrc."'>
+        </div>
         <div class='modal-content-text'>
           <h1>".$name."</h1>
           <h2>".$title."</h2>
           <h2>Class of ".$class."</h2>
-          <p>".$description."</p>
         </div>
       </div>
     </div>");

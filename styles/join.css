@@ -60,6 +60,10 @@ hr{
 .joinInfo{
   width: 90%;
   margin: 5%;
+
+}
+
+.join {
   position: absolute;
 }
 

@@ -16,7 +16,7 @@
   background-color: #111;
   width: 100%;
   height: 100%;
-  min-height: 760px;
+  min-height: 740px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,7 @@
   width: 100%;
   height: auto;
   float: left;
-  margin-top: 10%;
+  margin-top: 5%;
   position: absolute;
   overflow-y:visible;
   /*overflow-x: hidden;*/
@@ -129,12 +129,13 @@
   top: 50%;
   left: 50%;
   padding: 3%;
+  color: black;
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid black;*/
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  box-shadow: 0 0 5px rgba(0,0,0,.3);
-  background-color: #111;
+  /*box-shadow: 0 0 5px rgba(0,0,0,.3);*/
+  background-color: #FFF;
 
 
 }
@@ -143,7 +144,6 @@
 
   display: block;
   width: 100%;
-
   position: absolute;
 
 }
@@ -179,7 +179,7 @@
   margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
-  color: #FFF;
+  color: #111;
   width: 100%;
 
 }
@@ -206,11 +206,12 @@
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 4% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 15% auto; /* 15% from the top and centered */
+    /*padding: 20px;*/
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
-    height: 80%;
+    height: 45%;
+
 
 }
 
@@ -222,24 +223,38 @@
 }
 
 
-.modal-content-text {
-  padding-left: 58%;
-  padding-top:  20%;
-
-}
-
 .modalClicked {
   display: block;
 }
 
-.modal-content img {
+.modalpicdiv {
+  width: auto;
   position: relative;
-  width: 40%;
+  height: 100%;
   float: left;
-  margin-left: 10%;
-  margin-top:  12%;
-  border: 2px solid black;
+
 }
+
+.modal-content img {
+  max-width:100%;
+  /*width: auto;*/
+  max-height:100%;
+  /*object-fit: contain;*/
+  float: left;
+  display: block;
+}
+
+.modal-content-text {
+  float: left;
+  padding-left: 5%;
+  height: auto;
+  padding-top: 10%;
+  width: 35%;
+
+
+}
+
+
 
 
 @-webkit-keyframes zoom {
@@ -320,8 +335,9 @@
       width: 100%;
     }
 
+
     .modal-content img {
-      width: 30%;
+      width: 100%;
       margin-top: 6%;
       margin-left: 10%;
     }
