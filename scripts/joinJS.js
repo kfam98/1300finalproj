@@ -4,4 +4,4 @@ $(document).ready(function() {
       scrollTop: $(".container").offset().top
       }, 500);
   });
-}
+});

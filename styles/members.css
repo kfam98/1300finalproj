@@ -133,7 +133,8 @@
   border: 2px solid white;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  /*background-color: #111;*/
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  background-color: #111;
 
 
 }
