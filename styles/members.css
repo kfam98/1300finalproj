@@ -246,7 +246,7 @@
 
 .modal-content-text {
   float: left;
-  padding-left: 5%;
+  padding-left: 2%;
   height: auto;
   padding-top: 10%;
   width: 35%;
@@ -329,29 +329,6 @@
       top: 0;
     }
 
-    .modal-content {
-      margin: 15% auto;
-      height: 65%;
-      width: 100%;
-    }
-
-
-    .modal-content img {
-      width: 100%;
-      margin-top: 6%;
-      margin-left: 10%;
-    }
-
-    .modal-content-text {
-      padding-left: 50%;
-      padding-top:  10%;
-
-    }
-
-    #scroll {
-      margin-top: 50%;
-    }
-
     .banner-text h1{
       margin-left: 5%;
     }
@@ -388,6 +365,10 @@
 
     }
 
+    .modal-content-text {
+      font-size: 10px;
+    }
+
     .banner {
       width: 80%;
     }
@@ -399,9 +380,9 @@
     }
 
     #scroll {
-      margin-left: 30%;
+      margin-left: 38%;
       width: 10%;
-      margin-top: 80%;
+      margin-top: 100%;
     }
 
 

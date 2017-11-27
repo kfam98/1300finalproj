@@ -122,14 +122,15 @@ body {
 }
 .menu {
   visibility: visible;
-  width: 50px;
-  height: auto;
+  width: 70px;
+  height: 70px;
   position: fixed;
   margin-top: 5%;
   margin-left: 90%;
   cursor: pointer;
   z-index: 1;
-  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  background-color: #FFF;
+  /*box-shadow: 10px 10px 5px #d3d3d3;*/
 
 }
 
@@ -146,13 +147,14 @@ body {
 
 .closebtn {
     position: absolute;
-    top: -10px;
+    top: -20px;
     font-size: 70px;
-    height: 90%;
+    height: 100%;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
     display: none;
-    background-color: #FFF;
+    /*background-color: #FFF;*/
     text-decoration: none;
     color: #111;
     font-weight: 700;
@@ -267,19 +269,21 @@ li.active {
     padding-top: 70%;
   }
   .menu {
-    margin-left: 75%;
+    margin-left: 73%;
     margin-top: 20%;
 
   }
-
-
 
   .sidebar {
     width: 100%;
   }
 
-  #menu_pic {
-    padding: 5px;
+  .title {
+    padding-top: 10%;
+  }
+
+  .socialmedia {
+    padding-top: 0;
   }
 
   #scroll {
@@ -321,8 +325,6 @@ li.active {
 
   .sidebar .nav li {
     width: 50%;
-
-
   }
 
   .sidebar .nav a {
