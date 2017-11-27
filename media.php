@@ -18,12 +18,13 @@
 
   <!-- Main Content Implementation Starts Here -->
   <div class="main">
+
     <!-- this is the menu pic used for mobile view, pls leave alone  -->
     <?php include "includes/menubar.php"; ?>
 
-    <div class=".Rectangle-11">
+    <div class="Rectangle-11">
       <h1 class="central">MEDIA</h1>
-      <img id="scroll" alt="scroll" src="images/icons/arrow.png">
+      <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
     </div>
 
     <div class="slideshow-container">
