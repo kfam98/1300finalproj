@@ -85,11 +85,12 @@
         <h1>Orientation Workshop</h1>
         <hr/>
         <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dace O-Week Workshops</a>!</p>
+        <div class="container">
           <figure id="workshopimg">
-            <img alt="workshop" src="images/join/workshop.jpg">
-            <img alt="workshop" src="images/join/workshop2.jpg">
+            <img id="workshop1" alt="workshop" src="images/join/workshop.jpg">
+            <img id="workshp2" alt="workshop" src="images/join/workshop2.jpg">
           </figure>
-        <!--add past workshop pictures + videos -->
+        </div>
       </div>
     </div>
   </div>

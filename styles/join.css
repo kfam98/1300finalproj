@@ -9,7 +9,6 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-
 .cover {
   background-image: url("../images/join/join4.jpg");
   background-color: #111;
@@ -53,7 +52,7 @@ hr{
   background-color: black;
 }
 
-.performance img, .audition img, .workshop img{
+.performance img, .audition img{
   width: 100%;
 }
 
@@ -95,6 +94,25 @@ hr{
   line-height: 23px;
 }
 
+.workshop img{
+  width: 600px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#workshop1{
+  flex: 1;
+  order:1;
+}
+
+#workshp2{
+  flex: 2;
+  order:2;
+}
 /**************************************************************/
 /***********************MAIN 4 MOBILE**************************/
 /**************************************************************/
