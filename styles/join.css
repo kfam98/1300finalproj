@@ -99,5 +99,11 @@
 
 @media only screen and (max-width : 470px) {
 
+  #scroll {
+    margin-left: 30%;
+    width: 10%;
+    margin-top: 100%;
+  }
+
 
 }

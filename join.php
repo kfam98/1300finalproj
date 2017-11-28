@@ -68,7 +68,7 @@
       <!--workshop info-->
       <div class="workshop">
         <h2>Orientation Workshop</h2>
-        <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dace O-Week Workshops</a>!</p>
+        <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dance O-Week Workshops</a>!</p>
           <figure id="workshopimg">
             <!-- possible parallax implementation -->
             <div class="parallax">

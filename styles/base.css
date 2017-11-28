@@ -58,9 +58,6 @@ body {
   min-width: 600px;
   border: solid 1px #979797;
 	height: 100%;
-	/*background-color: white;*/
-  /*box-sizing: inherit;*/
-  /*margin-left: 250px;*/
   overflow: hidden;
   position: flex;
 }
@@ -149,8 +146,8 @@ body {
 }
 .menu {
   visibility: visible;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   position: fixed;
   margin-top: 5%;
   margin-left: 90%;
@@ -178,7 +175,7 @@ body {
 .closebtn {
     position: absolute;
     top: -10px;
-    left: -4px;
+    left: -1px;
     font-size: 30px;
 
     height: 25px;
@@ -213,7 +210,6 @@ body {
 
 .sidebar .nav ul{
   list-style-type: none;
-  cursor: pointer;
   overflow: hidden;
   padding: 0;
   width: 100%;
