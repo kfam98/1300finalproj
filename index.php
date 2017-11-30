@@ -84,7 +84,7 @@
             <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">
               Bailey Ticket
             </a>
-            for $6!
+            for $8!
           </p>
         </div>
       </div>
