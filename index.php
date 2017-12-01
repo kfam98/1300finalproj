@@ -14,6 +14,7 @@
   <!-- javascript -->
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
+  <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
 
 </head>
@@ -33,6 +34,7 @@
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
       <!-- this is the banner/slideshow for the landing page before scrolling -->
+
       <div id="indexCover">
         <h1 id="indexCoverFirst"> SHADOWS </h1>
         <h2 id="indexCoverSecond"> Dance Troupe </h2>
@@ -43,8 +45,11 @@
         </div>
       </div>
 
+      <?php include "includes/navigationlink.php"; ?>
+
       <!-- text details below -->
       <div class="indexInfo">
+
         <h1> <a class="target"> About </a> </h1>
         <h2> Mission </h2>
         <p>

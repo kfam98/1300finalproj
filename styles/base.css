@@ -66,6 +66,12 @@ body {
   background-color: rgba(0,0,0,0.6);
 }
 
+.navlinks {
+}
+
+.navlinks a:hover {
+  color: #111;
+}
 
 
 /**************************************************************/
@@ -200,6 +206,10 @@ body {
   width: 80%;
 }
 
+#logo:hover {
+  opacity: .7;
+}
+
 /*Navigation Styling*/
 .navigation {
   width: 100%;
@@ -247,7 +257,7 @@ li.active {
 /*Social Media Styling*/
 .socialmedia {
   width: 100%;
-  margin-left: 32%;
+  margin-left: 25%;
   padding-top: 25%;
 
 }
@@ -263,6 +273,108 @@ li.active {
 .socialmedia a:hover {
   opacity: .5;
 }
+
+/**************************************************************/
+/*********************Form Modal STYLING************************/
+/******************CEDRIC LOOK HERE*****************************/
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    /*padding: 20px;*/
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 45%;
+
+
+}
+
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+
+.modalClicked {
+  display: block;
+}
+
+/* The Close Button */
+.closeForm {
+  position: absolute;
+  /*top: 15px;*/
+  margin-top: .75%;
+  margin-left: 26%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closeClicked {
+  display: none;
+}
+
+.closeForm:hover,
+.closeForm:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content-form {
+  float: left;
+  padding-left: 5%;
+  height: auto;
+  padding-top: 10%;
+  width: 35%;
+}
+
+
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**************************************************************/
 /*********************SIDEBAR 4 MOBILE*************************/
@@ -336,10 +448,14 @@ li.active {
     margin-left: 84%;
   }
 
+
   #logo {
     width: 65%;
     padding-left: 10%;
   }
+
+
+
   .socialmedia {
     padding-top: 5%;
     margin-left: 35%;

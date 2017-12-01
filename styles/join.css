@@ -64,11 +64,13 @@
 
 }
 
+
+
 .target {
   position: absolute;
 }
 
-.joinInfo a{
+.joinInfo a {
   color: black;
   font-weight: 300;
 }
@@ -84,6 +86,12 @@
 
 .fallstepDetail{
   line-height: 23px;
+}
+
+.navlinks {
+  margin-top: 0;
+  margin: 5%;
+  
 }
 
 /**************************************************************/

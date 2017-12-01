@@ -1,8 +1,9 @@
 <div id="sidebar" class="sidebar">
+
   <!-- Title/Logo Placement -->
   <div class='title'>
 
-    <img id="logo" src="images/shadowsLogo.png" alt="logo">
+    <a id="logolink" href="index.php"><img id="logo" src="images/shadowsLogo.png" alt="logo"></a>
   </div>
 
   <!-- Vertical Navigation Bar -->
@@ -26,5 +27,19 @@
   <div class="socialmedia">
     <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
     <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
+    <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 </div>
+
+<!-- Modal content -->
+<div id="modal-form" class='modal'>
+      <div class='modal-content'>
+        <span class='closeForm'>&times;</span>
+        <!-- insert form information here -->
+        <div class='modal-content-form'>
+          <h1>Join Our Email List!</h1>
+          <h2>Name: </h2>
+          <h2>Email: </h2>
+        </div>
+      </div>
+    </div>
