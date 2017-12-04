@@ -36,10 +36,10 @@
       <div class='modal-content'>
         <span class='closeForm'>&times;</span>
         <!-- insert form information here -->
-        <div class='modal-content-form'>
+        <form class='modal-content-form'>
           <h1>Join Our Email List!</h1>
           <h2>Name: </h2>
           <h2>Email: </h2>
-        </div>
+        </form>
       </div>
     </div>
