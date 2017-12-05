@@ -8,26 +8,24 @@
     if (isset($submit)){
       error_log("user submitted the form");
 
-      $userEmail = $_REQUEST["sidebarEmail"];
-      if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
-        $userEmailIsValid = true;
+      $sidebarEmail = $_REQUEST["sidebarEmail"];
+      if (!empty($sidebarEmail) && (filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL))) {
+        $sidebarEmailValid = true;
       } else {
-        $userEmailIsValid = false;
+        $sidebarEmailValid = false;
       }
 
-      $formValid = $userEmailIsValid;
-
-      if($formValid){
+      if($sidebarEmailValid){
         header("Location: sidebar.php");
         session_start();
-        $_SESSION['email'] = $userEmail;
+        $_SESSION['email'] = $sidebarEmail;
 
         return;
       }
     } else{
       error_log("no form submitted");
 
-      $userEmailIsValid = true;
+      $sidebarEmailValid = true;
     }
  ?>
 
