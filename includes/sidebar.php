@@ -55,6 +55,21 @@
         </nav>
   </div>
 
+
+  <!-- email form here -->
+  <div id="sidebarForm">
+    <form id="emailForm" action="index.php" method="post">
+    <p> Email: </p>
+    <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
+    <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="sidebarEmailError">
+      Incorrect Email format detected.
+    </span>
+      <button id="submit" type="submit" value="submit" name="submit">Submit</button>
+    </form>
+  </div>
+
+
+
   <!-- Social Media Icons -->
   <div class="socialmedia">
     <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
@@ -62,24 +77,8 @@
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 
-  <!-- email form below  -->
-  <div>
-
-    <!-- email form here -->
-    <div id="sidebarForm">
-      <form id="emailForm" action="index.php" method="post">
-      <p> Email: </p>
-      <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
-      <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="sidebarEmailError">
-        Incorrect Email format detected.
-      </span>
-        <button id="submit" type="submit" value="submit" name="submit">Submit</button>
-      </form>
-    </div>
 
 
-
-  </div>
 
 </div>
 
