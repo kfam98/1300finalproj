@@ -29,6 +29,23 @@
     <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
+
+  <!-- email form below  -->
+  <div>
+
+    <!-- email form here -->
+    <div id="sidebarForm">
+      <p> Email: </p>
+      <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
+      <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="sidebarEmailError">
+        Incorrect Email format detected.
+      </span>
+    </div>
+
+    <input id="submit" type="submit" value="Submit" name="submit">
+
+  </div>
+
 </div>
 
 <!-- Modal content -->
