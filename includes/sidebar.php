@@ -78,8 +78,6 @@
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 
-</div>
-
 <!-- Modal content -->
 <div id="modal-form" class='modal'>
       <div class='modal-content'>
@@ -92,3 +90,4 @@
         </form>
       </div>
     </div>
+</div>
