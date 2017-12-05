@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
   // Validate form on submit
-  $("#subscribeForm").on("submit", function() {
+  $("#emailForm").on("submit", function() {
     var emailIsValid = $("#sidebarEmail").prop("validity").valid;
-    if (emailIsValid) {
+    var emailIsEmpty = if $("#sidebarEmail"); 
+    if ((emailIsValid) && emailIsEmpty) {
       $("#sidebarEmailError").hide();
     } else {
       $("#sidebarEmailError").show();
