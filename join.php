@@ -14,6 +14,7 @@
   <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
+  <script type="text/javascript" src="scripts/form.js"></script>
 </head>
 
 <body>
@@ -64,8 +65,6 @@
             Each year, we are known for hosting Fall Step, Cornell's largest dance collective in Bailey hall!
             Shadows dancers are active in the dance community - teaching CDA workshops, participating in multiple dance troupes, and performing across campus.
             We would love to see what you've got - auditions for Shadows! <p>
-
-        <!--add map-->
       </div>
 
       <!--workshop info-->

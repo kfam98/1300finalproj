@@ -14,6 +14,8 @@
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
+  <script type="text/javascript" src="scripts/form.js"></script>
+
 </head>
 <body>
   <!-- Sidebar Implemented Starts Here -->
@@ -26,7 +28,7 @@
 
     <!-- this is the menu pic used for mobile view, pls leave alone  -->
     <?php include "includes/menubar.php"; ?>
-  
+
 
     <div class="Rectangle-11">
       <h1 class="central">MEDIA</h1>
