@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
 
-<head>
-<script type="text/javascript" src="scripts/form.js"></script>
-</head>
-=======
 <!--server side validation-->
 <?php
   $HIDDEN_ERROR_CLASS ="hiddenError";
@@ -34,7 +28,6 @@
       $userEmailIsValid = true;
     }
  ?>
->>>>>>> 4009a43d56bc4a232501d73d5427c6658cdd5f95
 
 <div id="sidebar" class="sidebar">
 
