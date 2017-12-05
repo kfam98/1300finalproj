@@ -8,7 +8,7 @@
     if (isset($submit)){
       error_log("user submitted the form");
 
-      $userEmail = $_REQUEST("sidebarEmail");
+      $userEmail = $_REQUEST["sidebarEmail"];
       if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
         $userEmailIsValid = true;
       } else {
@@ -18,9 +18,10 @@
       $formValid = $userEmailIsValid;
 
       if($formValid){
+        header("Location: sidebar.php");
         session_start();
         $_SESSION['email'] = $userEmail;
-        header("Location:".  basename($_SERVER['SCRIPT_NAME']));
+
         return;
       }
     } else{
