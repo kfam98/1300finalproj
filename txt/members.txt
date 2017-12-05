@@ -1,21 +1,21 @@
-Katie O'Brien,2018,President,katie_c.jpg,katie2.jpg,blahblah
-Brendan Kirsh,2019,Treasurer,brendan_c.jpg,brendan_c.jpg,blahblah
-Claudia Nielsen,2018,Public Relations,claudia_c.jpg,claudia2.jpg,blahblah
-Ariana Korman,2018,Social,ari_c.jpg,ari_c.jpg,blahblah
-Cameron Swift,2020,Member,cam_c.jpg,cam_c.jpg,blahblah
-Catherine Tran,2020,Member,cat_c.jpg,cat2.jpg,blahblah	
-Catie Wise,2021,Member,catie_c.jpg,catie_c.jpg,blahblah
-Dana Thornlow,2018/2019 PhD,Member,dana_c.jpg,dana_c.jpg,blahblah	
-Erica Holt,2021,Member,erica_c.jpg,erica2.jpg,blahblah
-Jacqueline Glyman,2020,Member,jac_c.jpg,jac_c.jpg,blahblah
-Jasmine Peng, 2020,Member,jasmine_c.jpg,jasmine2.jpg,blahblah	
-Jaye Ren,2020,Member,jaye_c.jpg,jaye2.jpg,blahblah	
-Julia Albanese,	2020,Member,juliaa_c.jpg,juliaa2.jpg,blahblah	
-Julia Walsh,2020,Member,juliaw_c.jpg,juliaw2.jpg,blahblah			
-Kiara Olmeda,2019,Member,kiara_c.jpg,kiara_c.jpg,blahblah	
-Lucy Raymond,2021,Member,lucy_c.jpg,lucy2.jpg,blahblah	
-Maya Coben,2021,Member,maya_c.jpg,maya_c.jpg,blahblah	
-Niara Hardister,2018,Member,niara_c.jpg,niara_c.jpg,blahblah	
-Samantha Lee,2021,Member,samantha_c.jpg,samantha2.jpg,blahblah	
-Shannon Su,2019,Member,shannon_c.jpg,shannon_c.jpg,blahblah	
-Virginia Boldt,2019,Member,virginia_c.jpg,virginia_c.jpg,blahblah	
+Katie O'Brien,2018,President,katie_c.jpg,katie2.jpg
+Brendan Kirsh,2019,Treasurer,brendan_c.jpg,brendan_c.jpg
+Claudia Nielsen,2018,Public Relations,claudia_c.jpg,claudia2.jpg
+Ariana Korman,2018,Social,ari_c.jpg,ari_c.jpg
+Cameron Swift,2020,Member,cam_c.jpg,cam_c.jpg
+Catherine Tran,2020,Member,cat_c.jpg,cat2.jpg
+Catie Wise,2021,Member,catie_c.jpg,catie_c.jpg
+Dana Thornlow,2018/2019 PhD,Member,dana_c.jpg,dana_c.jpg
+Erica Holt,2021,Member,erica_c.jpg,erica2.jpg
+Jacqueline Glyman,2020,Member,jac_c.jpg,jac_c.jpg
+Jasmine Peng, 2020,Member,jasmine_c.jpg,jasmine2.jpg
+Jaye Ren,2020,Member,jaye_c.jpg,jaye2.jpg
+Julia Albanese,	2020,Member,juliaa_c.jpg,juliaa2.jpg
+Julia Walsh,2020,Member,juliaw_c.jpg,juliaw2.jpg
+Kiara Olmeda,2019,Member,kiara_c.jpg,kiara_c.jpg
+Lucy Raymond,2021,Member,lucy_c.jpg,lucy2.jpg
+Maya Coben,2021,Member,maya_c.jpg,maya_c.jpg
+Niara Hardister,2018,Member,niara_c.jpg,niara_c.jpg
+Samantha Lee,2021,Member,samantha_c.jpg,samantha2.jpg
+Shannon Su,2019,Member,shannon_c.jpg,shannon_c.jpg
+Virginia Boldt,2019,Member,virginia_c.jpg,virginia_c.jpg

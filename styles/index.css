@@ -9,18 +9,21 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-
+.main{
+  background-color: white;
+}
 
 #indexCover{
   background-image: url("../images/index/cover.gif");
   background-color: black;
-  height: 826px;
+  height: 100%;
+  min-height: 840px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 #indexCover h1{
@@ -29,42 +32,36 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*font attributes*/
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 64px;
-  text-align: center;
   color: white;
+  /*font attributes*/
+  font-size: 75px;
+  text-shadow: 0px 0px 10px black;
 }
 
 #indexCover h2{
   /*positioning*/
   position: absolute;
-  top: 52%;
+  top: 46%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   /*font attributes*/
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 65px;
-  font-weight: 700;
-  line-height: 64px;
-  text-align: center;
   color: white;
+  letter-spacing: 5px;
+  font-size: 30px;
 }
 
 #indexCover img{
   height: 100%;
-  /*margin-left: 250px;*/
 }
 
-#indexScroll img{
+#scroll {
   width: 5%;
-  margin-top: 58%;
-  margin-left: 45%;
+  margin-top: 48%;
+  margin-left: 48%;
+
 }
 
-#indexScroll img:hover {
+#scroll:hover {
   opacity: .9;
   cursor: pointer;
 }
@@ -72,7 +69,6 @@
 .indexInfo{
   width: 90%;
   margin: 5%;
-  opacity: 0.75;
 }
 
 .indexInfo h1{
@@ -92,12 +88,12 @@
   font-weight: lighter;
   margin-top: 1%;
   margin-bottom: 3%;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
 }
 
-#indexMiddlePic{
+.parallax{
   /* The image used */
-  background: url("../images/Group1.jpg");
+  background: url("../images/index/Group1.jpg");
 
   /* Set a specific height */
   width: 100%;
@@ -111,6 +107,9 @@
   /*background-color: black;*/
   }
 
+#fallStepImg{
+  width: 100%
+}
 
 /**************************************************************/
 /***********************MAIN 4 MOBILE**************************/
@@ -131,6 +130,27 @@
 
 /*more adjustments for mobile view*/
 @media only screen and (max-width : 470px) {
+
+  #indexCover {
+    width: 80%;
+  }
+
+
+  #indexCover h1 {
+    font-size: 50px;
+    left: 45%;
+  }
+
+  #scroll {
+    margin-left: 38%;
+    width: 10%;
+    margin-top: 110%;
+  }
+
+  .indexInfo {
+    width: 60%;
+  }
+
 
 
 

@@ -6,6 +6,10 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/members.css" media="all"/>
+
+  <!-- google fonts -->
+  <?php include "includes/googleFonts.php"; ?>
+
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/membersJS.js"></script>
@@ -32,7 +36,7 @@
         </div>
       </div>
 
-      <div class="aboveGrid"> <p>SHADOWS. DANCE. TROUPE.</p></div>
+      <!-- <div class="aboveGrid"><p>Meet Our Members</p></div> -->
 
       <div class="container" id="container">
 

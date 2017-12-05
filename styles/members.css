@@ -9,18 +9,21 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
-
+.main{
+  background-color: white;
+}
 
 .banner {
   background-image: url("../images/shadows_dance_troupe.jpg");
   background-color: #111;
   width: 100%;
   height: 100%;
-  min-height: 760px;
+  min-height: 740px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: inherit;
+  background-attachment: fixed;
 }
 
 
@@ -28,7 +31,7 @@
   width: 100%;
   height: auto;
   float: left;
-  margin-top: 10%;
+  margin-top: 5%;
   position: absolute;
   overflow-y:visible;
   /*overflow-x: hidden;*/
@@ -36,18 +39,15 @@
 }
 
 .banner-text h1{
-  text-align: center;
+  /*positioning*/
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  font-size: 100px;
   transform: translate(-50%, -50%);
-  text-transform: uppercase;
   color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
-  line-height: 64px;
-  /*padding: 20px 30px;*/
+  /*font attributes*/
+  font-size: 75px;
+  text-shadow: 0px 0px 10px black;
 }
 
 #scroll {
@@ -114,11 +114,13 @@
   padding: 5%;
   padding-top: 15%;
   width: 65%;
+  /*text-shadow: 0px 0px 2px white;*/
 }
 
 .box-text p {
   font-size: 15px;
   padding: 2px;
+  color: #FFF;
 }
 
 
@@ -129,12 +131,13 @@
   top: 50%;
   left: 50%;
   padding: 3%;
+  color: black;
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid black;*/
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  box-shadow: 0 0 5px rgba(0,0,0,.3);
-  background-color: #111;
+  /*box-shadow: 0 0 5px rgba(0,0,0,.3);*/
+  background-color: #FFF;
 
 
 }
@@ -143,7 +146,6 @@
 
   display: block;
   width: 100%;
-
   position: absolute;
 
 }
@@ -179,7 +181,7 @@
   margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
-  color: #FFF;
+  color: #111;
   width: 100%;
 
 }
@@ -206,11 +208,12 @@
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 4% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 15% auto; /* 15% from the top and centered */
+    /*padding: 20px;*/
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
-    height: 80%;
+    height: 45%;
+
 
 }
 
@@ -222,24 +225,36 @@
 }
 
 
-.modal-content-text {
-  padding-left: 58%;
-  padding-top:  20%;
-
-}
-
 .modalClicked {
   display: block;
 }
 
-.modal-content img {
+.modalpicdiv {
+  width: auto;
   position: relative;
-  width: 40%;
+  height: 100%;
   float: left;
-  margin-left: 10%;
-  margin-top:  12%;
-  border: 2px solid black;
+
 }
+
+.modal-content img {
+  max-width:100%;
+  /*width: auto;*/
+  max-height:100%;
+  /*object-fit: contain;*/
+  float: left;
+  display: block;
+}
+
+.modal-content-text {
+  float: left;
+  padding-left: 5%;
+  height: auto;
+  padding-top: 10%;
+  width: 35%;
+}
+
+
 
 
 @-webkit-keyframes zoom {
@@ -314,28 +329,6 @@
       top: 0;
     }
 
-    .modal-content {
-      margin: 15% auto;
-      height: 65%;
-      width: 100%;
-    }
-
-    .modal-content img {
-      width: 30%;
-      margin-top: 6%;
-      margin-left: 10%;
-    }
-
-    .modal-content-text {
-      padding-left: 50%;
-      padding-top:  10%;
-
-    }
-
-    #scroll {
-      margin-top: 50%;
-    }
-
     .banner-text h1{
       margin-left: 5%;
     }
@@ -363,15 +356,32 @@
 
     .mem-img {
       margin-top: 0;
+      width: 100%;
     }
 
     .modal-content {
       margin: 50% auto;
       width: 70%;
-      height: 60%;
+      height: 55%;
+
 
     }
 
+    .modalpicdiv {
+      width: 100%;
+      height: 50%;
+    }
+
+    .modal-content-text {
+      font-size: 10px;
+      padding-top:  4%;
+      padding-left: 0;
+    }
+
+    .modal-content-text h1, .modal-content-text h2 {
+      padding: 0;
+      line-height: 25px;
+    }
     .banner {
       width: 80%;
     }
@@ -383,9 +393,9 @@
     }
 
     #scroll {
-      margin-left: 30%;
+      margin-left: 38%;
       width: 10%;
-      margin-top: 80%;
+      margin-top: 100%;
     }
 
 

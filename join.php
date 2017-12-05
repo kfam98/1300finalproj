@@ -6,9 +6,13 @@
   <title>Shadows Dance Troupe</title>
   <link rel="stylesheet" type="text/css" href="styles/base.css" media="all"/>
   <link rel="stylesheet" type="text/css" href="styles/join.css" media="all"/>
+
+  <!-- google fonts -->
+  <?php include "includes/googleFonts.php"; ?>
+
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
-  <script type="text/javascript" src="scripts/joinJS.js"></script>
+  <script type="text/javascript" src="scripts/scroll.js"></script>
 </head>
 
 <body>
@@ -27,47 +31,28 @@
         <!--Image Source: Shadows dance troupe Facebook page -->
         <div class="covertext">
           <h1>Join</h1>
-          <img id="arrow" alt="scroll" src="images/icons/arrow_white.png">
+          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 
-    <div class="join">
+    <div class="target">
       <div class="joinInfo">
       <!--general info-->
         <div class="shadows">
           <h1>Shadows Dance Troupe?</h1>
-          <hr/>
             <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
-            <p>Check out our YouTube channel!
-              <a href="https://www.youtube.com/user/cornellshadows?feature=watch"> https://www.youtube.com/user/cornellshadows?feature=watch </a></p>
+            <p> Check out our
+              <a href="https://www.youtube.com/user/cornellshadows?feature=watch">
+                YouTube Channel</a>!
+            </p>
 
               <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
               <!--if clicked, scrolls down to audition section-->
         </div>
 
-      <!--performance info-->
-      <div class="performance">
-        <h1> Fall Step 2017</h1>
-        <hr/>
-        <figure id="fallstepimg">
-          <img alt="fallstep" src="images/join/fallstep.jpg"/>
-        </figure>
-        <div class="fallstepinfo">
-          <p>Join Shadows Dance Troupe at Fall Step 2017: Cornell's Largest Dance Collective! This dynamic show features dance tropues from across campus in a wide range of styles, from contemporary to hip hop to
-          cultural performances. A one-of-a kind opportunity to see the diverse dance talent at Cornell, all in Bailey Hall on one epic night. </p>
-        </div>
-        <div class="fallstepDetail">
-          <p><span class="h2">When?</span> Friday, December 1 at 8PM - 10PM</p>
-          <p><span class="h2">Where?</span> Bailey Hall</p>
-            <!--add google map maybe?-->
-          <p><span class="h2">Ticket Information?</span> Get your ticket at <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">Bailey Ticket</a> for $6! </p>
-        </div>
-      </div>
-
       <!--audition info-->
       <div class="audition">
-        <h1>Fall 2017 Audition</h1>
-        <hr/>
+        <h2>Fall 2017 Audition</h2>
         <figure id="auditionimg">
           <img alt="audition" src="images/join/audition.jpg"/>
         </figure>
@@ -82,15 +67,16 @@
 
       <!--workshop info-->
       <div class="workshop">
-        <h1>Orientation Workshop</h1>
-        <hr/>
-        <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dace O-Week Workshops</a>!</p>
-        <div class="container">
+        <h2>Orientation Workshop</h2>
+        <p>Check out the full schedule below and see updates at <a href="https://www.facebook.com/events/477823099260022/">Dance O-Week Workshops</a>!</p>
           <figure id="workshopimg">
-            <img id="workshop1" alt="workshop" src="images/join/workshop.jpg">
-            <img id="workshp2" alt="workshop" src="images/join/workshop2.jpg">
+            <!-- possible parallax implementation -->
+            <div class="parallax">
+              <!-- image placed as background in css -->
+            </div>
           </figure>
-        </div>
+          <img alt="workshop" src="images/join/workshop.jpg">
+        <!--add past workshop pictures + videos -->
       </div>
     </div>
   </div>
