@@ -295,9 +295,17 @@ li.active {
   border-bottom: 2px solid black;
 }
 
+<<<<<<< HEAD
 #sidebarEmailError {
   display: none;
 }
+=======
+.hiddenError{
+  display: none;
+}
+
+
+>>>>>>> 52c54e53f67d2322d504d0344b629ee0c9cbd2b2
 
 /**************************************************************/
 /*********************Form Modal STYLING************************/

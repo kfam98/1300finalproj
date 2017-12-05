@@ -1,8 +1,7 @@
 
 <!--server side validation-->
-<?php
-  $HIDDEN_ERROR_CLASS ="hiddenError";
 
+<<<<<<< HEAD
     $submit = $_REQUEST["submit"];
 
     if (isset($submit)){
@@ -49,6 +48,8 @@
 >>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
     }
  ?>
+=======
+>>>>>>> 52c54e53f67d2322d504d0344b629ee0c9cbd2b2
 
 <div id="sidebar" class="sidebar">
 
