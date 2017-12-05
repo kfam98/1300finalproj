@@ -15,22 +15,23 @@
       error_log("user submitted the form");
 
       $userEmail = $_REQUEST("sidebarEmail");
-      if(!empty($userEmail)){
+      if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
         $userEmailIsValid = true;
       } else {
         $userEmailIsValid = false;
       }
-    }
 
-    $formValid = $userEmailIsValid;
+      $formValid = $userEmailIsValid;
 
-    if($formValid){
-      session_start();
-      $_SESSION['email'] = $userEmail;
-      header("Location:".  basename($_SERVER['SCRIPT_NAME']));
-      return;
+      if($formValid){
+        session_start();
+        $_SESSION['email'] = $userEmail;
+        header("Location:".  basename($_SERVER['SCRIPT_NAME']));
+        return;
+      }
     } else{
       error_log("no form submitted");
+
       $userEmailIsValid = true;
     }
  ?>
