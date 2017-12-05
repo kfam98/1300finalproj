@@ -8,7 +8,11 @@
     if (isset($submit)){
       error_log("user submitted the form");
 
+<<<<<<< HEAD
       $userEmail = $_REQUEST("sidebarEmail");
+=======
+      $userEmail = $_REQUEST["sidebarEmail"];
+>>>>>>> e22a36451fea7215baa2985ddf2ee1b3bcd2ea9a
       if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
         $userEmailIsValid = true;
       } else {
@@ -16,11 +20,20 @@
       }
 
       $formValid = $userEmailIsValid;
+<<<<<<< HEAD
 
       if($formValid){
         session_start();
         $_SESSION['email'] = $userEmail;
         header("Location:".  basename($_SERVER['SCRIPT_NAME']));
+=======
+
+      if($formValid){
+        header("Location: sidebar.php");
+        session_start();
+        $_SESSION['email'] = $userEmail;
+
+>>>>>>> e22a36451fea7215baa2985ddf2ee1b3bcd2ea9a
         return;
       }
     } else{
@@ -77,9 +90,15 @@
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 
+<<<<<<< HEAD
 
 
 
+=======
+
+
+
+>>>>>>> e22a36451fea7215baa2985ddf2ee1b3bcd2ea9a
 </div>
 
 <!-- Modal content -->
