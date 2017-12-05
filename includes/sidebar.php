@@ -8,14 +8,22 @@
     if (isset($submit)){
       error_log("user submitted the form");
 
+<<<<<<< HEAD
       $userEmail = $_REQUEST("sidebarEmail");
       if(!empty($userEmail)){
+=======
+      $sidebarEmail = $_REQUEST["sidebarEmail"];
+      if (!empty($sidebarEmail) && (filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL))) {
+        $sidebarEmailValid = true;
+      if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
+>>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
         $userEmailIsValid = true;
       } else {
-        $userEmailIsValid = false;
+        $sidebarEmailValid = false;
       }
     }
 
+<<<<<<< HEAD
     $formValid = $userEmailIsValid;
 
     if($formValid){
@@ -26,6 +34,19 @@
     } else{
       error_log("no form submitted");
       $userEmailIsValid = true;
+=======
+      if($sidebarEmailValid){
+        header("Location: sidebar.php");
+        session_start();
+        $_SESSION['email'] = $sidebarEmail;
+
+        return;
+      }
+    } else{
+      error_log("no form submitted");
+
+      $sidebarEmailValid = true;
+>>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
     }
  ?>
 
@@ -61,6 +82,7 @@
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 
+<<<<<<< HEAD
   <!-- email form below  -->
   <div>
 
@@ -82,6 +104,8 @@
 
 </div>
 
+=======
+>>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
 <!-- Modal content -->
 <div id="modal-form" class='modal'>
       <div class='modal-content'>
@@ -94,3 +118,4 @@
         </form>
       </div>
     </div>
+</div>

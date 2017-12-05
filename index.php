@@ -15,7 +15,7 @@
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
-  <script type="text/javascript" src="scripts/form.js"></script>
+  <!-- <script type="text/javascript" src="scripts/form.js"></script> -->
 
 </head>
 
@@ -36,9 +36,7 @@
         <h1 id="indexCoverFirst"> SHADOWS </h1>
         <h2 id="indexCoverSecond"> Dance Troupe </h2>
         <div id="indexScroll">
-          <a href="index.php#target">
-            <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
-          </a>
+          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 
