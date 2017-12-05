@@ -1,56 +1,6 @@
 
 <!--server side validation-->
 
-<<<<<<< HEAD
-    $submit = $_REQUEST["submit"];
-
-    if (isset($submit)){
-      error_log("user submitted the form");
-
-<<<<<<< HEAD
-      $userEmail = $_REQUEST("sidebarEmail");
-      if(!empty($userEmail)){
-=======
-      $sidebarEmail = $_REQUEST["sidebarEmail"];
-      if (!empty($sidebarEmail) && (filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL))) {
-        $sidebarEmailValid = true;
-      if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
->>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
-        $userEmailIsValid = true;
-      } else {
-        $sidebarEmailValid = false;
-      }
-    }
-
-<<<<<<< HEAD
-    $formValid = $userEmailIsValid;
-
-    if($formValid){
-      session_start();
-      $_SESSION['email'] = $userEmail;
-      header("Location:".  basename($_SERVER['SCRIPT_NAME']));
-      return;
-    } else{
-      error_log("no form submitted");
-      $userEmailIsValid = true;
-=======
-      if($sidebarEmailValid){
-        header("Location: sidebar.php");
-        session_start();
-        $_SESSION['email'] = $sidebarEmail;
-
-        return;
-      }
-    } else{
-      error_log("no form submitted");
-
-      $sidebarEmailValid = true;
->>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
-    }
- ?>
-=======
->>>>>>> 52c54e53f67d2322d504d0344b629ee0c9cbd2b2
-
 <div id="sidebar" class="sidebar">
 
   <!-- Title/Logo Placement -->
