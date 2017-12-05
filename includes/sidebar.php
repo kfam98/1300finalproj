@@ -33,7 +33,6 @@
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
 
-<<<<<<< HEAD
   <!-- email form below  -->
   <div>
 
