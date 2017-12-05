@@ -258,7 +258,7 @@ li.active {
 .socialmedia {
   width: 100%;
   margin-left: 25%;
-  padding-top: 25%;
+  padding-top: 10%;
 
 }
 
@@ -273,6 +273,29 @@ li.active {
 .socialmedia a:hover {
   opacity: .5;
 }
+
+/* email form styling */
+#sidebarForm{
+  float: left;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 1%;
+}
+#sidebarForm p{
+  margin-bottom: 1%;
+}
+#sidebarEmail{
+  float: left;
+  border: none;
+  border-bottom: 2px solid #d3d3d3;
+  width: 100%;
+}
+#sidebarEmail:focus{
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+
 
 /**************************************************************/
 /*********************Form Modal STYLING************************/
