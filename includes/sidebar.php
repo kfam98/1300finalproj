@@ -1,8 +1,40 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <head>
 <script type="text/javascript" src="scripts/form.js"></script>
 </head>
+=======
+<!--server side validation-->
+<?php
+  $HIDDEN_ERROR_CLASS ="hiddenError";
+
+    $submit = $_REQUEST["submit"];
+
+    if (isset($submit)){
+      error_log("user submitted the form");
+
+      $userEmail = $_REQUEST("sidebarEmail");
+      if(!empty($userEmail)){
+        $userEmailIsValid = true;
+      } else {
+        $userEmailIsValid = false;
+      }
+    }
+
+    $formValid = $userEmailIsValid;
+
+    if($formValid){
+      session_start();
+      $_SESSION['email'] = $userEmail;
+      header("Location:".  basename($_SERVER['SCRIPT_NAME']));
+      return;
+    } else{
+      error_log("no form submitted");
+      $userEmailIsValid = true;
+    }
+ ?>
+>>>>>>> 4009a43d56bc4a232501d73d5427c6658cdd5f95
 
 <div id="sidebar" class="sidebar">
 
