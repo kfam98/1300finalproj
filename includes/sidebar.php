@@ -1,5 +1,6 @@
 
 <!--server side validation-->
+<?php include "includes/serverSide.php"; ?>
 
 <div id="sidebar" class="sidebar">
 
