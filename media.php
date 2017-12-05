@@ -12,6 +12,7 @@
 
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
+  <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
 </head>
 <body>
@@ -25,6 +26,7 @@
 
     <!-- this is the menu pic used for mobile view, pls leave alone  -->
     <?php include "includes/menubar.php"; ?>
+    <?php include "includes/navigationlink.php"; ?>
 
     <div class="Rectangle-11">
       <h1 class="central">MEDIA</h1>
@@ -94,7 +96,8 @@
 
 
   </div>
+  <script type="text/javascript" src="scripts/slideshow.js"></script>
+  <script type="text/javascript" src="scripts/dot.js"></script>
 </body>
-<script type="text/javascript" src="scripts/slideshow.js"></script>
-<script type="text/javascript" src="scripts/dot.js"></script>
+
 </html>

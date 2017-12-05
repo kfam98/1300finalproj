@@ -12,6 +12,7 @@
 
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
+  <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/membersJS.js"></script>
 </head>
 
@@ -38,6 +39,8 @@
 
       <!-- <div class="aboveGrid"><p>Meet Our Members</p></div> -->
 
+      <?php include "includes/navigationlink.php"; ?>
+      
       <div class="container" id="container">
 
         <!-- PHP generates interactive member grid -->

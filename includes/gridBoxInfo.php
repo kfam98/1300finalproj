@@ -33,7 +33,7 @@
     print(" <div class='box col-".$colNum."  clickMe' id='box".$modalID."'>
       <img class='mem-img' id='mem-img".$modalID."' src='images/members/".$imgSrc."' alt='mem-img'>
       <div class='name-overlay'>
-        <span class='name' id='name1'>$name</span>
+        <span class='name' id='name".$modalID."'>$name</span>
       </div>
       <div class='box-text'>
         <p>$title</p>

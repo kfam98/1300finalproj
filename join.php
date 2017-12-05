@@ -11,6 +11,7 @@
   <?php include "includes/googleFonts.php"; ?>
 
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
 </head>
@@ -27,6 +28,7 @@
       <!-- this is the menu pic used for mobile view, pls leave alone  -->
       <?php include "includes/menubar.php"; ?>
 
+
       <div class="cover">
         <!--Image Source: Shadows dance troupe Facebook page -->
         <div class="covertext">
@@ -34,6 +36,8 @@
           <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
+
+      <?php include "includes/navigationlink.php"; ?>
 
     <div class="target">
       <div class="joinInfo">

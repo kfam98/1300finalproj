@@ -39,6 +39,11 @@
   background-color: black;
 }
 
+.navlinks {
+  margin-top: 60%;
+  position: absolute;
+}
+
 #scroll {
   width: 5%;
   margin-top: 48%;
