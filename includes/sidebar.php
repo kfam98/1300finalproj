@@ -55,8 +55,6 @@
 
 </div>
 
-=======
->>>>>>> c49e64311624a81c72c8903bccf6a1f0ccf6dbe9
 <!-- Modal content -->
 <div id="modal-form" class='modal'>
       <div class='modal-content'>
