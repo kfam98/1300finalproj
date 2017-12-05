@@ -14,8 +14,8 @@
   <!-- javascript -->
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
-  <script type="text/javascript" src="scripts/emailForm.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
+  <script type="text/javascript" src="scripts/form.js"></script>
 
 </head>
 
@@ -25,9 +25,6 @@
 
     <!-- Sidebar Implemented Starts Here -->
     <?php include "includes/sidebar.php"; ?>
-
-
-
 
     <!-- Main Content Implementation Starts Here -->
     <div class="main">
