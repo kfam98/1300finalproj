@@ -11,6 +11,8 @@
       $sidebarEmail = $_REQUEST["sidebarEmail"];
       if (!empty($sidebarEmail) && (filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL))) {
         $sidebarEmailValid = true;
+      if (!empty($userEmail) && (filter_var($userEmail, FILTER_VALIDATE_EMAIL))) {
+        $userEmailIsValid = true;
       } else {
         $sidebarEmailValid = false;
       }
@@ -75,9 +77,6 @@
     <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
     <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
   </div>
-
-
-
 
 </div>
 

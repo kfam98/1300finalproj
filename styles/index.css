@@ -92,19 +92,14 @@
 }
 
 .parallax{
-  /* The image used */
   background: url("../images/index/Group1.jpg");
-
-  /* Set a specific height */
   width: 100%;
   height: 400px;
-
-  /* Create the parallax scrolling effect */
+  /* parallax effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-color: black;*/
   }
 
 #fallStepImg{
