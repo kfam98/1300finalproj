@@ -2,13 +2,12 @@ $(document).ready(function() {
 
   // Validate form on submit
   $("#subscribeForm").on("submit", function() {
-    var emailIsValid = $("#mail").prop("validity").valid;
-    if(emailIsValid) {
-      $("#emailError").hide();
+    var emailIsValid = $("#sidebarEmail").prop("validity").valid;
+    if (emailIsValid) {
+      $("#sidebarEmailError").hide();
     } else {
-      $("#emailError").show();
+      $("#sidebarEmailError").show();
       return false;
     }
   });
-
 });

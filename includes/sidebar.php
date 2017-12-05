@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+
+<head>
+<script type="text/javascript" src="scripts/form.js"></script>
+</head>
+
 <div id="sidebar" class="sidebar">
 
   <!-- Title/Logo Placement -->
@@ -35,14 +41,17 @@
 
     <!-- email form here -->
     <div id="sidebarForm">
+      <form id="emailForm" action="index.php" method="post">
       <p> Email: </p>
       <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
       <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="sidebarEmailError">
         Incorrect Email format detected.
       </span>
+        <button id="submit" type="submit" value="submit" name="submit">Submit</button>
+      </form>
     </div>
 
-    <input id="submit" type="submit" value="Submit" name="submit">
+
 
   </div>
 
