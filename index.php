@@ -39,9 +39,7 @@
         <h1 id="indexCoverFirst"> SHADOWS </h1>
         <h2 id="indexCoverSecond"> Dance Troupe </h2>
         <div id="indexScroll">
-          <a href="index.php#target">
-            <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
-          </a>
+          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
         </div>
       </div>
 
