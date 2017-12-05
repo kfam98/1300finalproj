@@ -26,7 +26,7 @@
 
     <!-- this is the menu pic used for mobile view, pls leave alone  -->
     <?php include "includes/menubar.php"; ?>
-    <?php include "includes/navigationlink.php"; ?>
+  
 
     <div class="Rectangle-11">
       <h1 class="central">MEDIA</h1>

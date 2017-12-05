@@ -45,7 +45,6 @@
         </div>
       </div>
 
-      <?php include "includes/navigationlink.php"; ?>
 
       <!-- text details below -->
       <div class="indexInfo">

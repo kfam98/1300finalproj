@@ -37,7 +37,6 @@
         </div>
       </div>
 
-      <?php include "includes/navigationlink.php"; ?>
 
     <div class="target">
       <div class="joinInfo">

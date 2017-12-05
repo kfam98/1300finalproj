@@ -39,8 +39,7 @@
 
       <!-- <div class="aboveGrid"><p>Meet Our Members</p></div> -->
 
-      <?php include "includes/navigationlink.php"; ?>
-      
+
       <div class="container" id="container">
 
         <!-- PHP generates interactive member grid -->
