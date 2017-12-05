@@ -1,3 +1,33 @@
+<!--server side validation-->
+<?php
+  $HIDDEN_ERROR_CLASS ="hiddenError";
+
+    $submit = $_REQUEST["submit"];
+
+    if (isset($submit)){
+      error_log("user submitted the form");
+
+      $userEmail = $_REQUEST("sidebarEmail");
+      if(!empty($userEmail)){
+        $userEmailIsValid = true;
+      } else {
+        $userEmailIsValid = false;
+      }
+    }
+
+    $formValid = $userEmailIsValid;
+
+    if($formValid){
+      session_start();
+      $_SESSION['email'] = $userEmail;
+      header("Location:".  basename($_SERVER['SCRIPT_NAME']));
+      return;
+    } else{
+      error_log("no form submitted");
+      $userEmailIsValid = true;
+    }
+ ?>
+
 <div id="sidebar" class="sidebar">
 
   <!-- Title/Logo Placement -->

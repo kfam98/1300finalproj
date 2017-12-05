@@ -47,7 +47,7 @@
             <p>With dedicated members and a true passion for dance, Shadows challenges dancers to improve their skills and breeds innovation. Shadows is a tight-knit group who absolutely loves to perform.</p>
             <p> Check out our
               <a href="https://www.youtube.com/user/cornellshadows?feature=watch">
-                YouTube Channel</a>!
+                YouTube Channel</a> for more performances!
             </p>
 
               <!--<h3 id="audjoin"><a href="">Want to join Shadows?</a></h3>-->
