@@ -1,6 +1,31 @@
 
 <!--server side validation-->
-<?php include "includes/serverSide.php"; ?>
+<?php
+  $HIDDEN_ERROR_CLASS = "hiddenError";
+
+    $submit = $_REQUEST["submit"];
+    if (isset($submit)){
+      error_log("user submitted the email");
+
+      $sidebarEmail = $_REQUEST['sidebarEmail'];
+
+      if (!empty($sidebarEmail) && filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL)){
+        $sidebarEmailValid = true;
+      } else {
+        $sidebarEmailValid = false;
+      }
+
+      $submissionValid = $sidebarEmailValid;
+
+      if($submissionValid){
+        return; //if valid, allow submission
+      }
+    } else{
+      //no form submitted
+      error_log("no email submitted");
+      $sidebarEmailValid = true; //when user doesn't the submit form, it doesn't show error message
+    }
+ ?>
 
 <div id="sidebar" class="sidebar">
 
@@ -39,17 +64,15 @@
 
     <!-- email form here -->
     <div id="sidebarForm">
-      <form id="emailForm" action="index.php" method="post" novalidate>
+      <form id="emailForm" method="post" novalidate>
       <p> Email: </p>
       <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
-      <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="sidebarEmailError">
+      <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?>" id="sidebarEmailError">
         Incorrect Email format detected.
       </span>
         <button id="submit" type="submit" value="submit" name="submit">Submit</button>
       </form>
     </div>
-
-
 
   </div>
 
@@ -67,4 +90,3 @@
         </form>
       </div>
     </div>
-</div>
