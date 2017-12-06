@@ -12,7 +12,7 @@
 
 .main{
   background-color: white;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 #indexCover{
