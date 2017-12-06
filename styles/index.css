@@ -9,8 +9,10 @@
 /*******************MAIN CONTENT STYLING***********************/
 /**************************************************************/
 
+
 .main{
   background-color: white;
+  overflow: scroll;
 }
 
 #indexCover{
@@ -64,6 +66,10 @@
 #scroll:hover {
   opacity: .9;
   cursor: pointer;
+}
+
+.target {
+  position: absolute;
 }
 
 .indexInfo{
