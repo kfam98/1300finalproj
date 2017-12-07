@@ -118,7 +118,7 @@ p
 @media only screen and (max-width : 1020px) {
 
   #scroll {
-    margin-top: 80%;
+    margin-top: 60%;
   }
 
 
@@ -133,7 +133,7 @@ p
 }
 
 /*more adjustments for mobile view*/
-@media only screen and (max-width : 470px) {
+@media only screen and (max-width : 500px) {
 
   #indexCover {
     width: 80%;

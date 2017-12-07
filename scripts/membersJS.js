@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-  $('.clickMe').click(function(){
+  $('.clickMe').click(function() {
 
     //get ID of the div that was clicked
     var clickedID = $(this).attr('id');

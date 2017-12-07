@@ -19,10 +19,11 @@
 
 </head>
 <body>
+  
   <!-- Sidebar Implemented Starts Here -->
   <?php include "includes/sidebar.php"; ?>
 
-  <!-- Sidebar Implementation Ends Here -->
+
 
   <!-- Main Content Implementation Starts Here -->
   <div class="main">

@@ -468,6 +468,11 @@ li.active {
 
   }
 
+  .mediaicon {
+    width: 5%;
+    padding-left: 6%;
+  }
+
   .navigation {
     height: 5%;
   }

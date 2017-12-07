@@ -34,7 +34,7 @@
 
       <div id="formDiv" >
         <form id="emailForm" method="post" class="<?php if (($wasClicked) && ($success)) { echo($HIDDEN_ERROR_CLASS); } ?>" novalidate>
-        <p> Join our listserv! </p>
+        <p> Join our listserv: </p>
 
         <input id="sidebarEmail"  type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
         <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?> sidebarEmailError" id ="sidebarEmailError">
@@ -50,7 +50,7 @@
   <div class="socialmedia">
     <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
     <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
-    <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/subscription.png"/></a>
+    <a href="javascript:;" class="clickForm clickMe"> <img class="mediaicon" id="mail" alt="mail" src="images/icons/subscription.png"/></a>
   </div>
 
 
