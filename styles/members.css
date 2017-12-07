@@ -312,6 +312,9 @@
       margin-left: 0;
 
     }
+    #scroll {
+      margin-top: 80%;
+    }
 
     .modal-content {
       width: 80%;
