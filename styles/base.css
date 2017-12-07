@@ -26,7 +26,7 @@ h2 {
     }
 p {
     font-family: 'Droid Sans', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 23px;
     margin: 0 0 23px 0;
     color: #485466;
@@ -44,7 +44,7 @@ body {
   background-color: #FFF;
   font-family: 'Droid Sans', sans-serif;
   letter-spacing: 100;
-  font-size: 14px;
+  font-size: 17px;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
@@ -459,6 +459,21 @@ li.active {
 
   .sidebar {
     width: 100%;
+    opacity: 1;
+  }
+
+  #logo {
+    margin-left: 5%;
+    width: 70%;
+
+  }
+
+  .navigation {
+    height: 5%;
+  }
+
+  .sidebarForm {
+    margin-top: 2%;
   }
 
   .title {
@@ -466,21 +481,14 @@ li.active {
   }
 
   .socialmedia {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   #scroll {
     margin-top: 80%;
   }
 
-}
 
-/*adjusts the social media icons for iphoneSE*/
-@media only screen and (max-width : 320px) {
-
-  .socialmedia {
-    padding-top: 40%;
-  }
 }
 
 @media only screen and (orientation: landscape) and (max-width : 740px) {
@@ -495,7 +503,7 @@ li.active {
 
 
   #logo {
-    width: 65%;
+    width: 68%;
     padding-left: 10%;
   }
 

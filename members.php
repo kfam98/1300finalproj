@@ -44,7 +44,7 @@
       <!-- <div class="aboveGrid"><p>Meet Our Members</p></div> -->
 
 
-      <div class="container" id="container">
+      <div class="container target" id="container">
 
         <!-- PHP generates interactive member grid -->
         <?php include "includes/gridBoxInfo.php"; ?>

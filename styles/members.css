@@ -163,9 +163,7 @@
 }
 
 [class*="col-"]:hover .mem-img {
-  webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   cursor: pointer;
-  filter: blur(1px);
 
 
 }
@@ -328,7 +326,7 @@
     }
     [class*="col-"]:hover {
         width: 100%;
-        margin: 2%;
+        margin: 0;
     }
 
     .mem-img {
@@ -376,11 +374,12 @@
 
     .modal-content {
       margin: 50% auto;
-      width: 70%;
-      height: 55%;
+      width: 100%;
+      height: 100%;
 
 
     }
+
 
     .modalpicdiv {
       width: 100%;
@@ -395,10 +394,15 @@
 
     .modal-content-text h1, .modal-content-text h2 {
       padding: 0;
-      line-height: 25px;
+      line-height: 0px;
     }
     .banner {
       width: 80%;
+    }
+
+    .banner-text h1{
+      margin-left: 9%;
+
     }
 
 
@@ -410,7 +414,7 @@
     #scroll {
       margin-left: 38%;
       width: 10%;
-      margin-top: 100%;
+      margin-top: 110%;
     }
 
 

@@ -100,7 +100,6 @@
 
   </div>
   <script type="text/javascript" src="scripts/slideshow.js"></script>
-  <script type="text/javascript" src="scripts/dot.js"></script>
 </body>
 
 </html>
