@@ -28,8 +28,8 @@
     <!-- email form here -->
     <div class= "<?php if (!($wasClicked)) { echo($HIDDEN_ERROR_CLASS); } else {echo("show"); } ?> sidebarForm" >
 
-      <div class="response <?php if (($wasClicked) && ($sidebarEmailValid)) { echo("show"); } ?>">
-        <p> Email recieved. Thank you, <?php echo($sidebarEmail);?>! </p>
+      <div id= "response" class="response <?php if (($wasClicked) && ($sidebarEmailValid)) { echo("show"); } ?>">
+        <p id="responseptag"> Email recieved. Thank you, <?php echo($sidebarEmail);?>! </p>
       </div>
 
       <div id="formDiv" >
@@ -37,7 +37,7 @@
         <p> Email: </p>
 
         <input id="sidebarEmail"  type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
-        <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?> sidebarEmailError">
+        <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?> sidebarEmailError" id ="sidebarEmailError">
           Incorrect Email format detected.
         </span>
           <button id="submit" type="submit" value="submit" name="submit">Submit</button>

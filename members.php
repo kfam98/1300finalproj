@@ -1,3 +1,5 @@
+<?php include "includes/serverSide.php"; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
