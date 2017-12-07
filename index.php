@@ -83,8 +83,7 @@
             <h2>Ticket Information</h2>
             <p> Get your ticket at
               <a href="https://baileytickets.universitytickets.com/w/event.aspx?id=1293&cid=160&p=1">
-                Bailey Ticket
-              </a>
+                Bailey Hall Ticket Sales</a>
               for $8!
             </p>
           </div>
