@@ -101,6 +101,11 @@
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 1020px) {
 
+  #scroll {
+    margin-top: 80%;
+  }
+
+
 
 
   }

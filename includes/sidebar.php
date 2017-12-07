@@ -1,33 +1,5 @@
 
-<!--server side validation-->
-<?php
-  $HIDDEN_ERROR_CLASS = "hiddenError";
-
-    $submit = $_REQUEST["submit"];
-    if (isset($submit)){
-      error_log("user submitted the email");
-
-      $sidebarEmail = $_REQUEST['sidebarEmail'];
-
-      if (!empty($sidebarEmail) && filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL)){
-        $sidebarEmailValid = true;
-      } else {
-        $sidebarEmailValid = false;
-      }
-
-      $submissionValid = $sidebarEmailValid;
-
-      if($submissionValid){
-        return; //if valid, allow submission
-      }
-    } else{
-      //no form submitted
-      error_log("no email submitted");
-      $sidebarEmailValid = true; //when user doesn't the submit form, it doesn't show error message
-    }
- ?>
-
-<div id="sidebar" class="sidebar">
+<div id="sidebar" class="sidebar <?php if (($wasClicked) && ($sidebarEmailValid)) { echo("slideIn"); } ?>">
 
   <!-- Title/Logo Placement -->
   <div class='title'>
@@ -52,22 +24,27 @@
         </nav>
   </div>
 
-  <!-- email form below  -->
-  <div>
 
     <!-- email form here -->
-    <div id="sidebarForm">
-      <form id="emailForm" method="post" novalidate>
-      <p> Email: </p>
-      <input id="sidebarEmail" type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
-      <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?>" id="sidebarEmailError">
-        Incorrect Email format detected.
-      </span>
-        <button id="submit" type="submit" value="submit" name="submit">Submit</button>
-      </form>
+    <div class= "<?php if (!($wasClicked)) { echo($HIDDEN_ERROR_CLASS); } else {echo("show"); } ?> sidebarForm" >
+
+      <div class="response <?php if (($wasClicked) && ($sidebarEmailValid)) { echo("show"); } ?>">
+        <p> Email recieved. Thank you, <?php echo($sidebarEmail);?>! </p>
+      </div>
+
+      <div id="formDiv" >
+        <form id="emailForm" method="post" class="<?php if (($wasClicked) && ($success)) { echo($HIDDEN_ERROR_CLASS); } ?>" novalidate>
+        <p> Email: </p>
+
+        <input id="sidebarEmail"  type="email" name="sidebarEmail" placeholder="Enter your email here." value="<?php echo($sidebarEmail);?>" required>
+        <span class="errorContainer <?php if ($sidebarEmailValid) { echo($HIDDEN_ERROR_CLASS); } ?> sidebarEmailError">
+          Incorrect Email format detected.
+        </span>
+          <button id="submit" type="submit" value="submit" name="submit">Submit</button>
+        </form>
+      </div>
     </div>
 
-  </div>
 
   <!-- Social Media Icons -->
   <div class="socialmedia">

@@ -89,11 +89,10 @@ p
 }
 
 .indexInfo p{
-  font-size: 20px;
+  font-size: 14px;
   font-weight: lighter;
   margin-top: 1%;
   margin-bottom: 3%;
-  /*letter-spacing: 2px;*/
 }
 
 .parallax{
@@ -117,6 +116,11 @@ p
 
 /*for normal mobile screen that shows the menu icon and changes main to 100% width*/
 @media only screen and (max-width : 1020px) {
+
+  #scroll {
+    margin-top: 80%;
+  }
+
 
 
 

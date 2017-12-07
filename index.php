@@ -1,3 +1,5 @@
+<?php include "includes/serverSide.php"; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +17,7 @@
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/showMenu.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
-  <script type="text/javascript" src="scripts/form.js"></script>
+  <!-- <script type="text/javascript" src="scripts/form.js"></script> -->
 
 </head>
 
@@ -35,9 +37,8 @@
       <div id="indexCover">
         <h1 id="indexCoverFirst"> SHADOWS </h1>
         <h2 id="indexCoverSecond"> Dance Troupe </h2>
-        <div id="indexScroll">
-          <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
-        </div>
+
+        <img id="scroll" alt="scroll" src="images/icons/arrow_white.png">
       </div>
 
 

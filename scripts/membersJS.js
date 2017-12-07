@@ -31,11 +31,4 @@ $(document).ready(function() {
   });
 
 
-  // scrolls down with pretty animation
-  $("#scroll").on("click", function() {
-    $('html, body').animate({
-          scrollTop: $(".container").offset().top
-      }, 500);
-  });
-
 });

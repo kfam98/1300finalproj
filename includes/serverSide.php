@@ -3,38 +3,16 @@
 
     $submit = $_REQUEST["submit"];
 
-    if (isset($submit)){
-      error_log("user submitted the email");
+    $sidebarEmailValid = false;
+    $page = basename($_SERVER['PHP_SELF']);
+
+    $succes = false;
+
+    if (isset($submit)) {
+
+      $wasClicked = true;
 
       $sidebarEmail = $_REQUEST["sidebarEmail"];
-
-      /*if (!empty($sidebarEmail) ) {
-        $emailValid = true;
-        if (filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL)) {
-          $emailFiltered = true;
-        } else {
-          $emailFiltered = false;
-        }
-      } else {
-        $emailFiltered = true;
-        $emailValid = false;
-      }
-
-      sidebarEmailValid = $emailValid && $emailFiltered;
-      //if valid allow submission
-      if($sidebarEmailValid){
-        header("Location: sidebar.php");
-        session_start();
-        $_SESSION['email'] = $sidebarEmail;
-
-        return;
-      }
-    }else{
-      error_log("no form submitted");
-      //no form submitted
-      $emailValid = true;
-      $emailFiltered = true;
-    }*/
 
       if (!empty($sidebarEmail) && filter_var($sidebarEmail, FILTER_VALIDATE_EMAIL)){
         $sidebarEmailValid = true;
@@ -42,15 +20,19 @@
         $sidebarEmailValid = false;
       }
 
-      if($sidebarEmailValid){
-        header("Location: sidebar.php");
-        session_start();
-        $_SESSION['email'] = $sidebarEmail;
 
+      if($sidebarEmailValid){
+        //header("Location: " . $page);
+        session_start();
+        $success = true;
+        $_SESSION['email'] = $sidebarEmail;
         return;
       } /*show error --> done by echo? */
-    }else{
+
+    } else {
       error_log("no email submitted");
       $sidebarEmailValid = true;
+      $wasClicked = false;
+
     }
  ?>

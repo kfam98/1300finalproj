@@ -312,9 +312,6 @@
       margin-left: 0;
 
     }
-    #scroll {
-      margin-top: 80%;
-    }
 
     .modal-content {
       width: 80%;
@@ -327,6 +324,7 @@
     [class*="col-"] {
         width: 100%;
         background-position:left;
+        margin: 0;
     }
     [class*="col-"]:hover {
         width: 100%;
@@ -344,9 +342,11 @@
       top: 0;
     }
 
-    .banner-text h1{
-      margin-left: 5%;
+
+    #scroll {
+      margin-top: 80%;
     }
+
 
 
 }

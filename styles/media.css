@@ -176,6 +176,11 @@
   margin-top: 55%;
   }
 
+  #scroll {
+    margin-top: 80%;
+  }
+
+
 }
 
 @media only screen and (max-width : 750px) {

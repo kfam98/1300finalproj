@@ -9,10 +9,13 @@ $(document).ready(function() {
     }
     if ((emailIsValid) && (!emailIsEmpty)) {
       $("#sidebarEmailError").hide();
+      $("#formDiv").hide();
+      $("#response").show();
     } else {
       $("#sidebarEmailError").show();
-      return false;
+
     }
+    return false;
   });
 console.log(emailIsValid);
 console.log(emailIsEmpty);
