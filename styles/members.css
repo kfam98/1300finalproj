@@ -313,6 +313,10 @@
 
     }
 
+    .modal-content {
+      width: 80%;
+    }
+
     .container {
       width: 100%;
     }

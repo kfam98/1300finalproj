@@ -258,7 +258,7 @@ li.active {
 .socialmedia {
   width: 100%;
   margin-left: 25%;
-  padding-top: 5%;
+  padding-top: 2%;
   float: left;
 
 }
@@ -285,7 +285,7 @@ li.active {
   margin-bottom: 1%;
 }
 #sidebarEmail{
-  float: left;
+  /*float: left;*/
   border: none;
   border-bottom: 2px solid #d3d3d3;
   width: 100%;

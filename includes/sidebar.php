@@ -52,13 +52,6 @@
         </nav>
   </div>
 
-  <!-- Social Media Icons -->
-  <div class="socialmedia">
-    <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
-    <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
-    <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
-  </div>
-
   <!-- email form below  -->
   <div>
 
@@ -76,17 +69,13 @@
 
   </div>
 
-</div>
+  <!-- Social Media Icons -->
+  <div class="socialmedia">
+    <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
+    <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
+    <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" class="clickMe" alt="mail" src="images/icons/mail.png"/></a>
+  </div>
 
-<!-- Modal content -->
-<div id="modal-form" class='modal'>
-      <div class='modal-content'>
-        <span class='closeForm'>&times;</span>
-        <!-- insert form information here -->
-        <form class='modal-content-form'>
-          <h1>Join Our Email List!</h1>
-          <h2>Name: </h2>
-          <h2>Email: </h2>
-        </form>
-      </div>
-    </div>
+
+
+</div>
