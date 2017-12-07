@@ -68,7 +68,7 @@
 }
 
 .target {
-  position: absolute;
+  position: relative;
 }
 
 .indexInfo{
