@@ -85,7 +85,7 @@ body {
 }
 
 .sidebar {
-  height: 200%;
+  height: 100%;
   position: fixed;
   min-width: 250px;
   width: 20%;
@@ -93,6 +93,7 @@ body {
   opacity: .95;
   z-index: 1;
   display: none;
+  overflow: scroll;
   box-shadow: 0 0 5px rgba(0,0,0,.3);
   font: "Oswald";
   color: #485466;

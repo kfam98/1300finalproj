@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   $(".clickForm").on("click", function() {
     $( ".sidebarForm" ).slideToggle( "slow", function() {
-  // Animation complete.
+
     });
   });
 

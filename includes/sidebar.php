@@ -50,7 +50,7 @@
   <div class="socialmedia">
     <a href="https://www.facebook.com/shadowsdancetroupecornell/"><img class="mediaicon" alt="facebook" src="images/icons/facebook.png"/></a>
     <a href="https://www.youtube.com/user/cornellshadows"><img class="mediaicon" alt="youtube" src="images/icons/youtube.png"/></a>
-    <a href="javascript:;" class="clickForm clickMe"> <img class="mediaicon" id="mail" alt="mail" src="images/icons/subscription.png"/></a>
+    <a href="javascript:;" class="clickForm"> <img class="mediaicon" id="mail" alt="mail" src="images/icons/subscription.png"/></a>
   </div>
 
 
