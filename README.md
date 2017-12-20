@@ -43,13 +43,13 @@ The final project of INFO 1300: Introduction to Web Design. The client was a dan
 ├── txt                        
 │   └── members.txt
 │
-├── includes                       
-│   ├── googleFonts.php               
-│   ├── gridBoxInfo.php
-│   ├── menubar.php
-│   ├── modalInfo.php
-│   ├── serverSide.php
-│   └── sidebar.php   
+└── includes                       
+    ├── googleFonts.php               
+    ├── gridBoxInfo.php
+    ├── menubar.php
+    ├── modalInfo.php
+    ├── serverSide.php
+    └── sidebar.php   
 ```
 
 
