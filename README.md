@@ -2,6 +2,9 @@
 
 The final project of INFO 1300: Introduction to Web Design. The client was a dance group from Cornell.
 
+1. Go in the directory on the terminal and type "php -S localhost:8000"
+2. Go on web browser (preferably FireFox) and type localhost:8000 into the url link
+
 
 # File Structure
 ```
